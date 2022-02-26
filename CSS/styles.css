@@ -7,6 +7,11 @@ h3 {
   font-family: "Lato", sans-serif;
 }
 
+main {
+  width: 100%;
+  display: block;
+}
+
 .Page2 {
   font-family: "Teko", serif;
   font-size: 35px;
@@ -55,6 +60,7 @@ footer {
   margin-top: 4em;
   border-radius: 25px 25px 25px 25px;
   height: 3em;
+  max-width: 100%;
   padding-left: 1em;
   padding-bottom: 2em;
   line-height: 90px;
@@ -65,21 +71,22 @@ footer {
 
 .Page2Footer {
   margin-top: 45em;
-  border-radius: 25px 25px 25px 25px;
-  height: 3em;
-  padding-left: 1em;
-  padding-bottom: 2em;
-  line-height: 90px;
-  font-size: 20px;
-  background-color: #d972ff;
-  text-align: center;
 }
 
 a {
   color: blue;
 }
+
+section a {
+  color: lightgreen;
+}
+
 a:hover {
   color: lawngreen;
+}
+
+section a:hover {
+  color: orange;
 }
 
 ul li a:hover {
@@ -99,15 +106,14 @@ footer p {
 }
 
 section {
-  
   margin: 5px;
   border: 1px solid black;
   background-color: #000080;
   width: auto;
-  height:90%;
+  height: 90%;
   max-width: 31%;
   border-radius: 10px;
-  float:left;
+  float: left;
 }
 
 section p {
@@ -123,10 +129,6 @@ section p {
   color: white;
 }
 
-section a {
-  color: lightgreen;
-}
-
 section h3 {
   color: white;
   text-align: center;
@@ -140,9 +142,9 @@ picture img {
   padding: 15px;
 }
 
-header,
-footer,
-main {
+.Page2Header,
+.Page2Footer,
+.Page2Main {
   max-width: 66em;
-  margin: 0 auto;
 }
+
