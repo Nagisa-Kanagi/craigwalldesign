@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.headerImage {
+  margin-right: 42em;
+  margin-top: -0.25em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+h2 {
+  color: #536878;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: linear-gradient(90deg, transparent, gold, transparent) bottom /
+    var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+}
+
+header h1 {
+  margin-top: -3em;
+  padding-bottom: 0.5em;
+  font-size: 30px;
+}
+header h2 {
+  margin-top: -1em;
+  font-size: 15px;
+}
+
+nav {
+  max-width:100%;
+  background-color: #000080;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.navigation {
+  list-style: none;
+  font-family: "League Gothic", sans-serif;
+  font-weight: 50;
+  padding: 0;
+}
+.navigation li {
+  display: none;
+}
+.responsive li {
+  display: block;
+}
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: lightgray;
+  font-weight: 700;
+}
+
+.navigation a.ham::before {
+  content: "≡ ";
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+header,
+footer {
+  background-color: skyblue;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main,
+footer {
+  max-width: 767px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.active {
+  color: yellow;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
+main article {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: white;
+}
+
+main article ul {
+  margin: 1rem 0 0 1rem;
+}
+main picture {
+  display: none;
+  margin: 1rem;
+}
+
+footer {
+  height: 2rem;
+}
