@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
 
 body {
-  font-size: 30px;
   font-family: "Lato", sans-serif;
 }
 
@@ -107,6 +106,7 @@ nav ul {
 }
 
 main {
+  font-size: 30px;
   width:100%;
   display: grid;
   grid-template-columns: 1fr;
