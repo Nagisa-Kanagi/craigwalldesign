@@ -38,6 +38,7 @@ header h1 {
 }
 
 nav {
+  font-size:30px;
   max-width:100%;
   background-color: #000080;
   margin: 0 auto;
