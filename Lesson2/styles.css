@@ -106,11 +106,11 @@ nav ul {
 }
 
 main {
-  font-size: 30px;
+  font-size:30px;
+  font-family: "Merriweather", sans-serif;
   width:100%;
   display: grid;
   grid-template-columns: 1fr;
-  font-size: 0.8rem;
 }
 
 main article {
