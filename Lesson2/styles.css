@@ -29,6 +29,7 @@ header h1 {
 }
 
 .content {
+  margin-bottom:1em;
   font-size: 30px;
   justify-content:left;
   border: 1px solid black;
