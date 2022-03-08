@@ -29,9 +29,11 @@ header h1 {
 }
 
 .content {
-      background-color: beige;
-      max-width: 650px;
-    }
+  justify-content:left;
+  border: 1px solid black;
+  background-color: beige;
+  max-width: 650px;
+}
 
 nav {
   max-width:100%;
