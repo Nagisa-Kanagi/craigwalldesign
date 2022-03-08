@@ -22,13 +22,13 @@ nav ul li a {
   transition: 0.5s;
 }
 
-header h1 {
+header{
   padding-bottom: 0.5em;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .content {
-  font-size:30px;
+  font-size:25px;
   margin-bottom:1em;
   justify-content:left;
   border: 1px solid black;
@@ -106,7 +106,7 @@ nav ul {
 }
 
 main {
-  font-size:30px;
+  font-size:25px;
   font-family: "Merriweather", sans-serif;
   width:100%;
   display: grid;
