@@ -13,6 +13,11 @@ body {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
+.content {
+      background-color: beige;
+      max-width: 650px;
+    }
+
 h1 {
   font-size: 1.1rem;
 }
