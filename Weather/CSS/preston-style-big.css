@@ -12,6 +12,7 @@ li {
 }
 
 .headerImage {
+  margin-right:110em;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -110,9 +111,9 @@ nav ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 0.75rem;
+  padding: 0.75em;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.95em;
   background: linear-gradient(90deg, transparent, gold, transparent) bottom /
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
@@ -135,7 +136,7 @@ nav ul li a {
 .navigation a {
   background-color: #000080;
   display: block;
-  padding: 0.75rem;
+  padding: 0.75em;
   text-align: left;
   text-decoration: none;
   color: white;
