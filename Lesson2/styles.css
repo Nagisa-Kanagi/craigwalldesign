@@ -101,11 +101,6 @@ footer {
   margin: 0 auto;
 }
 
-nav ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-
 .active {
   color: yellow;
 }
