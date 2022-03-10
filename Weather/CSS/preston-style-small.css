@@ -106,4 +106,21 @@
   .stats {
     position: static;
   }
+  
+  .label {
+    visibility: hidden;
+    position: absolute;
+    color: yellow;
+    top: 10px;
+    right: 30px;
+  }
+    
+  .label:after {
+    visibility: Visible;
+    position: absolute;
+    color: yellow;
+    top: 10px;
+    right: 30px;
+    content: "Small";
+  }
 }
