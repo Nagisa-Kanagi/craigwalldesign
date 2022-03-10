@@ -2,26 +2,61 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
 
+body {
+  font-family: "Merriweather", sans-serif;
+  margin: auto;
+}
+
+li {
+  text-decoration: none;
+}
+
 header {
-  font-family: "Lato", sans-serif;
+  background-position: top left;
+  align-content: center;
+  vertical-align: sub;
 }
 
 h2 {
-  color: #536878;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 100%;
 }
 
-header{
+main h2 {
+  text-align: center;
+}
+
+header h1 {
+  margin-top: -2em;
   padding-bottom: 0.5em;
-  font-size: 30px;
+  font-size: 40px;
+}
+header h2 {
+  margin-top: -2em;
+  font-size: 25px;
 }
 
 .content {
-  font-size:25px;
-  margin-bottom:1em;
-  justify-content:left;
+  display: block;
+  margin: 10px auto;
   border: 1px solid black;
+  padding: 15px;
+  text-align:center;
   background-color: beige;
-  max-width: 650px;
+  max-width: 100%;
+}
+
+header,
+footer {
+  background-color: skyblue;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid black;
+  font-family: "Lato", sans-serif;
 }
 
 nav {
@@ -29,33 +64,28 @@ nav {
   margin: 0 auto;
   background-color: rgb(0, 162, 255);
 }
-
 nav ul li a {
   display: block;
   color: white;
   text-align: center;
   padding: 0.75em;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 0.95em;
   background: linear-gradient(90deg, transparent, gold, transparent) bottom /
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
 }
-
 .navigation {
   max-width: 100%;
   list-style: none;
   padding: 0;
 }
-
 .navigation li {
   display: none;
 }
-
 .responsive li {
   display: block;
 }
-
 .navigation li:first-child {
   display: block;
 }
@@ -80,52 +110,4 @@ nav ul li a {
 .navigation a:hover {
   color: white;
   background-color: black;
-}
-
-header,
-footer {
-  font-family: "Lato", sans-serif;
-  background-color: skyblue;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-header,
-main,
-footer {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.active {
-  color: yellow;
-}
-
-main {
-  font-size:25px;
-  font-family: "Merriweather", sans-serif;
-  width:100%;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-main article {
-  margin: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  background-color: white;
-}
-
-main article ul {
-  margin: 1em 0 0 1em;
-}
-
-footer {
-  font-size:25px;
-  width:100%;
-  height: 2em;
 }
