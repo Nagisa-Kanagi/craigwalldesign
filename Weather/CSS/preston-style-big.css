@@ -183,3 +183,20 @@ nav ul li a {
 .grid {
   border-right: 1px solid #333333;
 }
+
+.label {
+  visibility: hidden;
+  position: absolute;
+  color: yellow;
+  top: 10px;
+  right: 30px;
+}
+    
+.label:after {
+  visibility: Visible;
+  position: absolute;
+  color: yellow;
+  top: 10px;
+  right: 30px;
+  content: "Large";
+}
