@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
 
 header {
+  font-size: 30px;
   font-family: "Lato", sans-serif;
 }
 
@@ -20,11 +21,6 @@ nav ul li a {
   background: linear-gradient(90deg, transparent, gold, transparent) bottom /
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
-}
-
-header{
-  padding-bottom: 0.5em;
-  font-size: 30px;
 }
 
 .content {
