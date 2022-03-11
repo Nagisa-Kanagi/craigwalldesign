@@ -59,7 +59,6 @@ header h2 {
   max-height: 90%;
 }
 
-
 .stats {
   position: absolute;
   top: 10px;
@@ -151,7 +150,7 @@ nav ul li a {
 }
 
 navigation a.ham {
-  visibility:none;
+  visibility:hidden;
 }
 
 .navigation a:hover {
