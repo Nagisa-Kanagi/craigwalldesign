@@ -106,6 +106,13 @@ nav {
   margin: 0 auto;
   background-color: rgb(0, 162, 255);
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 nav ul li a {
   display: block;
   color: white;
@@ -117,17 +124,21 @@ nav ul li a {
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
 }
+
 .navigation {
   max-width: 100%;
   list-style: none;
   padding: 0;
 }
+
 .navigation li {
   display: none;
 }
+
 .responsive li {
   display: block;
 }
+
 .navigation li:first-child {
   display: block;
 }
@@ -147,10 +158,6 @@ nav ul li a {
 
 .navigation a.ham::before {
   content: "≡ ";
-}
-
-.ham {
-  visibility:hidden;
 }
 
 .navigation a:hover {
