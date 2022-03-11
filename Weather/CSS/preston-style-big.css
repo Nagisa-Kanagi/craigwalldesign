@@ -107,12 +107,6 @@ nav {
   background-color: rgb(0, 162, 255);
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 nav ul li a {
   display: block;
   color: white;
@@ -127,7 +121,7 @@ nav ul li a {
 
 .navigation {
   max-width: 100%;
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 
