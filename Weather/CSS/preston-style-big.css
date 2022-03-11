@@ -43,8 +43,6 @@ header h2 {
 }
 
 .content {
-  padding-left:1em;
-  padding-right:1em;
   display: block;
   margin: 10px auto;
   border: 1px solid black;
@@ -150,6 +148,10 @@ nav ul li a {
 
 .navigation a.ham::before {
   content: "≡ ";
+}
+
+navigation a.ham {
+  visibility:none;
 }
 
 .navigation a:hover {
