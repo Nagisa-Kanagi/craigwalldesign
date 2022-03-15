@@ -24,7 +24,6 @@ if('IntersectionObserver' in window) {
     observer.observe(img);
   });
 } else {
-  // just load ALL the images if not supported
   imagesToLoad.forEach((img) => {
     loadImages(img);
   });
