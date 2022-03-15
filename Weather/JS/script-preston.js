@@ -3,7 +3,6 @@ const mainnav = document.querySelector('.navigation')
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
-
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 const daynames = [
@@ -40,13 +39,6 @@ document.getElementById("currentdate").textContent = fulldate;
 
 const date2 = document.querySelector('#currentdate2');
 
-// try {
-//   const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-//   date2.textContent = new Date().toLocaleDateString('en-UK', options);
-// } catch (e) {
-//   alert('Error with code or your browser does not support Locale');
-// }
-
 if (dayName == "Friday") {
 	var banner = document.createElement("div");
 	banner.className = "b";
@@ -56,4 +48,36 @@ if (dayName == "Friday") {
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.textAlign = "center";
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.padding = "20px 20px 20px 20px";
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.backgroundColor = "#f5cf87";
+}
+
+let imagesToLoad = document.querySelectorAll("img[data-src]");
+
+const imgOptions = {
+  threshold: 1.0,
+  rootMargin: "0px 0px 50px 0px"
+};
+
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute("data-src"));
+  image.onload = () => { image.removeAttribute("data-src"); };
+};
+
+if('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+      if(item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+      }
+    });
+  });
+    
+  imagesToLoad.forEach((img) => {
+    observer.observe(img);
+  });
+} 
+else {
+  imagesToLoad.forEach((img) => {
+    loadImages(img);
+  });
 }
