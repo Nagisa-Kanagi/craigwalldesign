@@ -4,11 +4,11 @@ main {
   align-items: center;
 }
 
-picture img[data-src] {
+picture img {
   filter: blur(1em);
 }
 
-picture img {
+picture img [data-src] {
   filter: blur(0em);
   transition: filter 0.5s;
 }
