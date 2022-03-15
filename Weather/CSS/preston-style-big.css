@@ -266,3 +266,62 @@ figcaption {
   background-color:white;
   text-align:center;
 }
+
+@media only screen and (min-width: 57em) {
+  .navigation {
+    display: flex;
+  }
+  
+  nav ul li {
+    flex: 1 1 auto;
+  }
+  
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  
+  nav a {
+    font-size: 1rem;
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .navigation a {
+    text-align: center;
+  }
+  
+  .navigation li:first-child {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+
+  nav a:hover {
+    background-color: black;
+    color: white;
+    --d: 75%;
+  }
+  
+  article:nth-child(3) {
+    grid-column: span 2;
+  }
+  main picture {
+    display: block;
+  }
+  main picture img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+  }
+}
