@@ -5,7 +5,7 @@ main {
 }
 
 picture img[data-src] {
-    filter: blur(1em);
+    filter: blur(2em);
   }
   
 picture img {
