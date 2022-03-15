@@ -50,7 +50,7 @@ if (dayName == "Friday") {
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.backgroundColor = "#f5cf87";
 }
 
-let imagesToLoad = document.querySelectorAll("img[data-src]");
+let imagesToLoad = document.querySelectorAll("img[data-srcset]");
 
 const imgOptions = {
   threshold: 1.0,
@@ -58,8 +58,8 @@ const imgOptions = {
 };
 
 const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute("data-src"));
-  image.onload = () => { image.removeAttribute("data-src"); };
+  image.setAttribute('src', image.getAttribute("data-srcset"));
+  image.onload = () => { image.removeAttribute("data-srcset"); };
 };
 
 if('IntersectionObserver' in window) {
