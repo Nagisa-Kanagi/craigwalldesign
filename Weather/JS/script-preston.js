@@ -54,7 +54,7 @@ let imagesToLoad = document.querySelectorAll('img[data-srcset]');
 const loadImages = (image) => {
   image.setAttribute('src', image.getAttribute('data-srcset'));
   image.onload = () => {
-    image.removeAttribute('data-src');
+    image.removeAttribute('data-srcset');
   };
 };
 
