@@ -3,151 +3,74 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
 
 body {
-  font-family: "Merriweather", sans-serif;
-  margin: auto;
-}
-
-li {
-  text-decoration: none;
-}
-
-.headerImage {
-  margin-right:110em;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-}
-
-header {
-  background-position: top left;
-  align-content: center;
-  vertical-align: sub;
-}
-
-h2 {
-  margin: 10px auto;
-  padding: 15px;
-  max-width: 100%;
-}
-
-main h2 {
-  text-align: center;
-}
-
-header h1 {
-  margin-top: -2em;
-  padding-bottom: 0.5em;
-  font-size: 40px;
-}
-header h2 {
-  margin-top: -2em;
-  font-size: 25px;
-}
-
-.content {
-  display: block;
-  margin: 10px auto;
-  border: 1px solid black;
-  padding: 15px;
-  text-align:center;
-  background-color: beige;
-  max-width: 100%;
-}
-
-.herodiv {
-  margin: 10px auto;
-  position: relative;
-  max-width: 100%;
-  max-height: 90%;
-}
-
-.stats {
-  position: absolute;
-  top: 10px;
-  right:0;
-  left: 10em;
-  background: radial-gradient(#eeeeee, beige);
-  border: 1px solid black;
-  padding: 1em;
-  box-shadow: 0 0 30px #333333;
-  width: 250px;
-  max-height: 50%;
-  font-size: 10px;
-  text-align: left;
-}
-
-.stats span {
-  font-style: italic;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-picture img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 0 1em #333333;
-  max-width: 100%;
-  max-height: 120%;
-}
-
-header,
-footer {
-  background-color: skyblue;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border: 1px solid black;
+  font-size: 16px;
   font-family: "Lato", sans-serif;
 }
 
-nav {
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: rgb(0, 162, 255);
+.headerImage {
+  margin-right: 42em;
+  margin-top: -0.25em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+h2 {
+  color: #536878;
 }
 
 nav ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 0.75em;
+  padding: 0.75rem;
   text-decoration: none;
-  font-size: 0.95em;
+  font-size: 0.95rem;
   background: linear-gradient(90deg, transparent, gold, transparent) bottom /
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
 }
 
-.navigation {
-  max-width: 100%;
-  list-style-type: none;
-  padding: 0;
+header h1 {
+  margin-top: -3em;
+  padding-bottom: 0.5em;
+  font-size: 30px;
+}
+header h2 {
+  margin-top: -1em;
+  font-size: 15px;
 }
 
+nav {
+  max-width:100%;
+  background-color: #000080;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.navigation {
+  list-style: none;
+  font-family: "League Gothic", sans-serif;
+  font-weight: 50;
+  padding: 0;
+}
 .navigation li {
   display: none;
 }
-
 .responsive li {
   display: block;
 }
-
 .navigation li:first-child {
   display: block;
 }
 
 .navigation a {
-  background-color: #000080;
   display: block;
-  padding: 0.75em;
+  padding: 0.75rem;
   text-align: left;
   text-decoration: none;
-  color: white;
-  font-family: "League Gothic", sans-serif;
+  color: lightgray;
   font-weight: 700;
-  transition: 0.5s;
-  font-size: clamp(1em, 2vmin, 1.5em);
 }
 
 .navigation a.ham::before {
@@ -159,48 +82,129 @@ nav ul li a {
   background-color: black;
 }
 
-.flex {
+header,
+footer {
+  background-color: skyblue;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.flex-col {
-  flex: 1;
-  background-color: #f5cf87;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #333333;
-  text-align: center;
+header,
+main,
+footer {
+  max-width: 767px;
+  margin: 0 auto;
 }
 
-.col-head {
-  display: block;
-  padding: 5px;
-  border-bottom: 1px solid #333333;
-  text-align: center;
-  font-weight: 700;
-  font-size: 1em;
-  background-color: black;
-  color: white;
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
 }
 
-.flex,
-.grid {
-  border-right: 1px solid #333333;
-}
-
-.label {
-  visibility: hidden;
-  position: absolute;
+.active {
   color: yellow;
-  top: 10px;
-  right: 30px;
 }
-    
-.label:after {
-  visibility: Visible;
-  position: absolute;
-  color: yellow;
-  top: 10px;
-  right: 30px;
-  content: "Large";
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
+main article {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: white;
+}
+
+main article ul {
+  margin: 1rem 0 0 1rem;
+}
+main picture {
+  display: none;
+  margin: 1rem;
+}
+
+footer {
+  height: 2rem;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .navigation {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 auto;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  nav a {
+    font-size: 1rem;
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    display: flex;
+  }
+
+  nav a:hover {
+    background-color: #000080;
+    color: gold;
+    --d: 75%;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  article:nth-child(3) {
+    grid-column: span 2;
+  }
+  main picture {
+    display: block;
+  }
+  main picture img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+  }
+}
+
+.container {
+  margin: 1rem auto; 
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  max-width: 1048px;
+}
+
+.container img { 
+  width: 250px; 
+  height: auto; 
+  margin: .5rem;
+}
+
+figcaption {
+  font-size: smaller;
+}
+
+.norm:hover {
+  box-shadow: 0 0 50px #333333;
 }
