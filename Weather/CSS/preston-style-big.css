@@ -242,6 +242,7 @@ main picture img {
 
 .container {
   background-color: beige;
+  border: 1px solid black;
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
