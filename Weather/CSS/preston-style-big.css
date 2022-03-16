@@ -15,12 +15,6 @@ li {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
-header {
-  background-position: top left;
-  align-content: center;
-  vertical-align: sub;
-}
-
 header img {
   margin-right: 110em;
 }
@@ -43,7 +37,16 @@ header h2 {
 
 .content {
   display: block;
-  margin: 10px auto;
+  margin:10px auto;
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+  background-color: beige;
+  max-width: 100%;
+}
+
+.content1 {
+  display: block;
   border: 1px solid black;
   padding: 15px;
   text-align: center;
@@ -88,9 +91,8 @@ picture img {
   max-height: 120%;
 }
 
-header,
-footer {
-  max-width:98%;
+header {
+  max-width: 98%;
   background-color: skyblue;
   display: flex;
   flex-flow: column;
@@ -102,7 +104,7 @@ footer {
 }
 
 nav {
-  max-width:98%;
+  max-width: 100%;
   background-color: #000080;
   margin: 0 auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
@@ -167,8 +169,7 @@ nav ul li a {
 .flex-col {
   flex: 1;
   background-color: #f5cf87;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #333333;
+  border: 1px solid black;
   text-align: center;
 }
 
@@ -210,36 +211,34 @@ main {
   font-size: 0.8rem;
 }
 
-main article {
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  background-color: white;
-}
-
 main article ul {
   margin: 1rem 0 0 1rem;
 }
 
 main picture {
-  max-width:99%;
+  max-width: 100%;
   display: block;
   margin: 1rem;
-}
-
-footer {
-  height: 2rem;
 }
 
 article:nth-child(3) {
   grid-column: span 2;
 }
 
+figure img[data-src] {
+  filter: blur(1em);
+}
+
+figure img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
 main picture img {
   width: 100%;
   height: auto;
   border: 1px solid black;
-  }
+}
 
 .container {
   background-color: beige;
@@ -263,7 +262,29 @@ main figure:hover {
 }
 
 figcaption {
-  background-color:white;
+  background-color: white;
+  text-align: center;
+}
+footer {
+  max-width: 98%;
+  border: 1px solid black;
+  background-color:#000080;
+  font-family: "Lato", sans-serif;
+}
+
+#contact_resources {
+  background-color:skyblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  justify-items: center;
+  align-items: center;
+  text-align: left;
+}
+
+.footer_info {
+  background-color:#000080;
+  color:white;
   text-align:center;
 }
 
@@ -271,16 +292,16 @@ figcaption {
   .navigation {
     display: flex;
   }
-  
+
   nav ul li {
     flex: 1 1 auto;
   }
-  
+
   .navigation li {
     display: block;
     flex: 1 1 auto;
   }
-  
+
   nav a {
     font-size: 1rem;
     display: block;
@@ -290,11 +311,11 @@ figcaption {
     color: white;
     font-weight: 700;
   }
-  
+
   .navigation a {
     text-align: center;
   }
-  
+
   .navigation li:first-child {
     display: none;
   }
@@ -302,7 +323,7 @@ figcaption {
   h1 {
     font-size: 1.5rem;
   }
-  
+
   nav ul {
     display: flex;
   }
@@ -312,7 +333,7 @@ figcaption {
     color: white;
     --d: 75%;
   }
-  
+
   article:nth-child(3) {
     grid-column: span 2;
   }
