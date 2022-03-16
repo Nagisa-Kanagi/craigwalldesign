@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+g@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
 
@@ -12,7 +12,12 @@
   }
 
   .content {
-    background-color: rgb(255, 255, 255);
+    background-color: beige;
+    max-width: 650px;
+  }
+  
+  .content1 {
+    background-color: beige;
     max-width: 650px;
   }
 
