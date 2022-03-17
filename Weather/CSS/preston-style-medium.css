@@ -139,4 +139,17 @@ g@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
     right: 30px;
     content: "Medium";
   }
+  
+  #stormdate {
+    margin-bottom:0.5em;
+  }
+
+  #additional {
+    margin-top:0.5em;
+  }
+
+  .sbutton {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+  }
 }
