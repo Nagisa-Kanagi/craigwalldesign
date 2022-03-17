@@ -127,4 +127,17 @@
     right: 30px;
     content: "Small";
   }
+  
+  #stormdate {
+    margin-bottom:0.5em;
+  }
+
+  #additional {
+    margin-top:0.5em;
+  }
+
+  .sbutton {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+  }
 }
