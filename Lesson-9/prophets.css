@@ -19,7 +19,7 @@ section:hover {
     box-shadow: 0px 0px 50px #333333;
 }
 
-h2, h3, h4 {
+h3, h4 {
     margin-top: -10px;
     font-family: 'Merriweather', sans-serif;
 }
