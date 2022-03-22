@@ -1,0 +1,40 @@
+.cards {
+    background-color: #B57EDC;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 2%;
+    text-align: center;
+}
+section {
+    margin: 3px 5px;
+}
+section:hover {
+    box-shadow: 0px 0px 50px #333333;
+}
+h2 {
+    color: #0a2342;
+}
+h3, h4 {
+    margin-top: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    margin-bottom: 0px;
+}
+img {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px #333333;
+}
+@media only screen and (max-width: 1200px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+    .cards {
+        display: block;
+        width: 100%;
+    }
+}
