@@ -12,6 +12,7 @@
 
 section {
     margin: 3px 5px;
+    border: 1px solid black;
 }
 
 section:hover {
