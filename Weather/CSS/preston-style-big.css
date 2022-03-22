@@ -25,6 +25,9 @@ h2 {
   max-width: 100%;
 }
 
+.bodyH2 {
+  font-size:40px;
+
 header h1 {
   margin-top: -2em;
   padding-bottom: 0.5em;
