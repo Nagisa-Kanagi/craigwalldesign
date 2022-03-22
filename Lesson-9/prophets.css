@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
+
 .cards {
     background-color: #B57EDC;
     display: grid;
@@ -5,33 +9,48 @@
     padding: 0 2%;
     text-align: center;
 }
+
 section {
     margin: 3px 5px;
 }
+
 section:hover {
     box-shadow: 0px 0px 50px #333333;
 }
-h2 {
-    color: #0a2342;
-}
+
 h3, h4 {
     margin-top: -10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
+
 h4{
     margin-bottom: 0px;
 }
+
 img {
     margin-bottom: 20px;
     box-shadow: 0px 0px 30px #333333;
 }
+
+header,
+footer {
+  font-family: "Lato", sans-serif;
+  background-color: skyblue;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 @media only screen and (max-width: 1200px) {
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
 }
+
 @media only screen and (max-width: 700px) {
     .cards {
         display: block;
