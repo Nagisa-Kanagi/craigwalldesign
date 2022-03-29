@@ -140,6 +140,6 @@ fetch(requestURL)
       event4.textContent = towns[i].events[3];
       events.appendChild(event4);
 
-      document.querySelector("div.events").appendChild(events);
+      document.querySelector("events").appendChild(events);
     }
   });
