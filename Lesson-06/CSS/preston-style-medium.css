@@ -154,3 +154,19 @@
     margin-bottom:0.5em;
   }
 }
+
+@media (min-width: 760px) {
+  .cards section {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  section:nth-child(even) img {
+    grid-column: 1;
+  }
+
+  section:nth-child(even) .data {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
