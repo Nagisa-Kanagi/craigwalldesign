@@ -11,6 +11,17 @@
     color: black;
     max-width: 500px;
   }
+  
+  .cards {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .content {
     background-color: beige;
