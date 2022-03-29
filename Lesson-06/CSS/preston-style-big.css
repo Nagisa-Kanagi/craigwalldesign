@@ -92,7 +92,6 @@ picture img {
 }
 
 figure img {
-  filter: blur(1em);
   transition: filter 0.5s;
 }
 
