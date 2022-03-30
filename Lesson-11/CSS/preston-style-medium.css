@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
@@ -10,6 +9,17 @@
     padding: 15px;
     color: black;
     max-width: 500px;
+  }
+  
+  .cards {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .content {
@@ -152,5 +162,21 @@
   .sbutton {
     margin-top:0.5em;
     margin-bottom:0.5em;
+  }
+}
+
+@media (min-width: 760px) {
+  .cards section {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  section:nth-child(even) img {
+    grid-column: 1;
+  }
+
+  section:nth-child(even) .data {
+    grid-column: 2;
+    grid-row: 1;
   }
 }
