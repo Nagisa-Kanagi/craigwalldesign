@@ -6,16 +6,28 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const results = jsonObject["results"].filter((result) => {
+      if (
+        result.name === "Luke Skywalker" ||
+        result.name === "C-3PO" ||
+        result.name === "R2-D2" ||
+        result.name === "Darth Vader" ||
+        result.name === "Leia Organa" ||
+        result.name === "Owen Lars" ||
+        result.name === "Beru Whitesun lars" ||
+        result.name === "R5-D4" ||
+        result.name === "Biggs Darklighter" ||
+        result.name === "Obi-Wan Kenobi"
+      ) {
         return result;
-      
+      }
     });
   
     for (let i = 0; i < results.length; i++) {
       let events = document.createElement("section");
 
-      let event1 = document.createElement("h4")
-      event1.textContent = results[i].name;
-      events.appendChild(event1)
+      let h2 = document.createElement("h2");
+      h2.textContent = result[i].name;
+      card.appendChild(h2);
 
       let event2 = document.createElement("h4");
       event2.textContent = results[i].height;
