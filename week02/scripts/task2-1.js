@@ -7,6 +7,9 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const results = jsonObject["results"].filter((result) => {
         return result;
+      
+    });
+  
     for (let i = 0; i < results.length; i++) {
       let events = document.createElement("section");
 
