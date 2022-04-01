@@ -18,10 +18,11 @@ fetch(requestURL)
         result.name === "Biggs Darklighter" ||
         result.name === "Obi-Wan Kenobi"
       ) {
-        const keys = Object.values(result.name)
-        const randIndex = Math.floor(Math.random() * values.length)
-        const randKey = values[randIndex]
-        const name = names[randKey]
+        const values = Object.values(result)
+
+        const randomValue = values[parseInt(Math.random() * values.length)]
+
+        console.log(randomValue)
 
       }
     });
