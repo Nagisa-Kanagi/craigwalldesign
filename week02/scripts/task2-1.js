@@ -17,48 +17,39 @@ const jsonData = {
   "name": "Biggs Darklighter", 
   "name": "Obi-Wan Kenobi"
   }
-    const values = Object.values(jsonData)
+const values = Object.values(jsonData)
 
-    const randomValue = values[parseInt(Math.random() * values.length)]
+const randomValue = values[parseInt(Math.random() * values.length)]
 
-    console.log(randomValue)
-      
-    });
+console.log(randomValue)
   
-  .then(function (jsonObject) {
-    const results = jsonObject["results"].filter((result) => {
-      if result === "Luke Skywalker" {
-        pass;
-      }
-    });
-  
-    for (let i = 0; i < results.length; i++) {
+for (let i = 0; i < results.length; i++) {
 
-      let events = document.createElement("section");
+  let events = document.createElement("section");
 
-      let h2 = document.createElement("h2");
-      h2.textContent = results[i].name;
-      events.appendChild(h2);
+  let h2 = document.createElement("h2");
+  h2.textContent = results[i].name;
+  events.appendChild(h2);
 
-      let event2 = document.createElement("h4");
-      event2.textContent = results[i].height;
-      events.appendChild(event2);
+  let event2 = document.createElement("h4");
+  event2.textContent = results[i].height;
+  events.appendChild(event2);
 
-      let event3 = document.createElement("h4");
-      event3.textContent = results[i].hair_color;
-      events.appendChild(event3);
+  let event3 = document.createElement("h4");
+  event3.textContent = results[i].hair_color;
+  events.appendChild(event3);
 
-      let event4 = document.createElement("h4");
-      event4.textContent = results[i].eye_color;
-      events.appendChild(event4);
+  let event4 = document.createElement("h4");
+  event4.textContent = results[i].eye_color;
+  events.appendChild(event4);
 
-      let event5 = document.createElement("h4");
-      event5.textContent = results[i].gender;
-      events.appendChild(event5);
+  let event5 = document.createElement("h4");
+  event5.textContent = results[i].gender;
+  events.appendChild(event5);
 
-      document.querySelector("div.events").appendChild(events);
-    }
-  });
+  document.querySelector("div.events").appendChild(events);
+  }
+});
 
 const year = 2022;
 document.querySelector('#year').textContent = year;
