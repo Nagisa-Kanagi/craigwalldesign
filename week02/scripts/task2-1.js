@@ -47,7 +47,7 @@ for (let i = 0; i < results.length; i++) {
   event5.textContent = results[i].gender;
   events.appendChild(event5);
 
-  document.querySelector("div.events").appendChild(events);
+  document.querySelector("button.events").appendChild(events);
   }
 });
 
