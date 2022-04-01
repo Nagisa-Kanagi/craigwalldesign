@@ -23,7 +23,7 @@ fetch(requestURL)
     });
   
     for (let i = 0; i < results.length; i++) {
-      const values = Object.values(result)
+      const values = Object.values(results)
 
       const randomValue = values[parseInt(Math.random() * values.length)]
 
