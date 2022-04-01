@@ -4,19 +4,18 @@ fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
-  .then(function (jsonObject) {
-    const results = jsonObject["results"].filter((result) => {
-      const jsonData = {
-      "name": "Luke Skywalker", 
-      "name": "C-3PO",  
-      "name": "R2-D2", 
-      "name": "Darth Vader", 
-      "name": "Leia Organa",  
-      "name": "Owen Lars", 
-      "name": "Beru Whitesun Lars", 
-      "name": "R5-D4", 
-      "name": "Biggs Darklighter", 
-      "name": "Obi-Wan Kenobi"
+
+const jsonData = {
+  "name": "Luke Skywalker", 
+  "name": "C-3PO",  
+  "name": "R2-D2", 
+  "name": "Darth Vader", 
+  "name": "Leia Organa",  
+  "name": "Owen Lars", 
+  "name": "Beru Whitesun Lars", 
+  "name": "R5-D4", 
+  "name": "Biggs Darklighter", 
+  "name": "Obi-Wan Kenobi"
   }
     const values = Object.values(jsonData)
 
@@ -24,6 +23,13 @@ fetch(requestURL)
 
     console.log(randomValue)
       
+    });
+  
+  .then(function (jsonObject) {
+    const results = jsonObject["results"].filter((result) => {
+      if result === "Luke Skywalker" {
+        pass;
+      }
     });
   
     for (let i = 0; i < results.length; i++) {
