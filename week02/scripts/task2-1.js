@@ -6,31 +6,32 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const results = jsonObject["results"].filter((result) => {
-      if (
-        result.name === "Luke Skywalker" ||
-        result.name === "C-3PO" ||
-        result.name === "R2-D2" ||
-        result.name === "Darth Vader" ||
-        result.name === "Leia Organa" ||
-        result.name === "Owen Lars" ||
-        result.name === "Beru Whitesun lars" ||
-        result.name === "R5-D4" ||
-        result.name === "Biggs Darklighter" ||
-        result.name === "Obi-Wan Kenobi"
-      ) {
-        return result;
-      }
+      const jsonData = {
+      "name": "Luke Skywalker", 
+      "name": "C-3PO",  
+      "name": "R2-D2", 
+      "name": "Darth Vader", 
+      "name": "Leia Organa",  
+      "name": "Owen Lars", 
+      "name": "Beru Whitesun Lars", 
+      "name": "R5-D4", 
+      "name": "Biggs Darklighter", 
+      "name": "Obi-Wan Kenobi"
+  }
+    const values = Object.values(jsonData)
+
+    const randomValue = values[parseInt(Math.random() * values.length)]
+
+    console.log(randomValue)
+      
     });
   
     for (let i = 0; i < results.length; i++) {
-      const values = Object.values(results)
-
-      const randomValue = values[parseInt(Math.random() * values.length)]
 
       let events = document.createElement("section");
 
       let h2 = document.createElement("h2");
-      h2.textContent = console.log(randomValue);
+      h2.textContent = results[i].name;
       events.appendChild(h2);
 
       let event2 = document.createElement("h4");
