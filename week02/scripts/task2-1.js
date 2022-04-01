@@ -18,20 +18,19 @@ fetch(requestURL)
         result.name === "Biggs Darklighter" ||
         result.name === "Obi-Wan Kenobi"
       ) {
-        const values = Object.values(result)
-
-        const randomValue = values[parseInt(Math.random() * values.length)]
-
-        console.log(randomValue)
-
+        return result;
       }
     });
   
     for (let i = 0; i < results.length; i++) {
+      const values = Object.values(result)
+
+      const randomValue = values[parseInt(Math.random() * values.length)]
+
       let events = document.createElement("section");
 
       let h2 = document.createElement("h2");
-      h2.textContent = results[i].name;
+      h2.textContent = console.log(randomValue);
       events.appendChild(h2);
 
       let event2 = document.createElement("h4");
