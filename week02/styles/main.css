@@ -1,6 +1,7 @@
-/* HTML Selectors */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 body {
-    font-family: 'Kalam', cursive;
+  font-family: "Righteous", sans-serif;
 }
 
 div {
@@ -45,15 +46,21 @@ nav ul {
     padding: 0;
 }
 
-nav ul li:first-child {
-    display: block;
-}
-
 nav ul li {
     display: none;
     list-style: none;
     margin: 10px;
 }
+
+.open li {
+    display: block;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+
 
 nav ul li a {
     color: white;
@@ -72,30 +79,37 @@ section {
     align-items: center;
 }
 
-/* Class Selectors */
 .active {
     background-color: white;
     color: black;
 }
 
-.open li {
-    display: block;
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  margin-bottom:15px;
+  color:white;
 }
 
-/* ID Selectors */
+.cards section {
+    background-color: black;
+    margin: 5px;
+    border: 3px solid skyblue;
+}
 
-/* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
         flex-direction: row;
+    }
+  
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
     }
     
     nav ul li:first-child {
         display: none;
     }
 
-    nav ul li {
-        display: inline;
-        margin: 0 10px;
-    }
 }
