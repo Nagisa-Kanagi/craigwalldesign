@@ -44,7 +44,7 @@ fetch(requestURL)
       let events = document.createElement("section");
 
       let h2 = document.createElement("h2");
-      h2.textContent = "Name:" + " " + results[i].name;
+      h2.textContent = results[i].name;
       events.appendChild(h2);
 
       let event2 = document.createElement("h4");
