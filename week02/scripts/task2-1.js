@@ -17,11 +17,13 @@ const jsonData = {
   "name": "Biggs Darklighter", 
   "name": "Obi-Wan Kenobi"
   }
-const values = Object.values(jsonData)
 
-const randomValue = values[parseInt(Math.random() * values.length)]
+const btn = document.querySelector("button");
 
-console.log(randomValue)
+      btn.addEventListener("click", function () {
+        const values = Object.values(jsonData)
+        const randomValue = values[parseInt(Math.random() * values.length)]
+        console.log(randomValue)
   
 for (let i = 0; i < results.length; i++) {
 
