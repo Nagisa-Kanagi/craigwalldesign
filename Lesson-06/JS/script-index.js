@@ -8,7 +8,7 @@ fetch(requestURL)
         for(let t=0; t<towns.length; t++) {
             let card = document.createElement('section');
             
-            let h2 =document.createElement('h2');
+            let h2 = document.createElement('h2');
             h2.textContent = towns[t].name;
             card.appendChild(h2);
             
