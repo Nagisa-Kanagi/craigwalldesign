@@ -1,0 +1,40 @@
+{
+    "rides": [
+      {
+        "name": "Honda Metro Scooter",
+        "maximumPersons": "1 person",
+        "reservePrice": "$20 (3 Hours), $30 (Full Day)",
+        "walkInPrice": "$25 (3 Hours), $35 (Full Day)"
+      },
+      {
+        "name": "Honda Dio Scooter",
+        "maximumPersons": "2 people",
+        "reservePrice": "$30 (3 Hours), $40 (Full Day)",
+        "walkInPrice": "$35 (3 Hours), $45 (Full Day)"
+      },
+      {
+        "name": "Honda PCX150 Scooter",
+        "maximumPersons": "2 people",
+        "reservePrice": "$40 (3 Hours), $50 (Full Day)",
+        "walkInPrice": "$45 (3 Hours), $55 (Full Day)"
+      },
+      {
+        "name": "Honda Pioneer ATV",
+        "maximumPersons": "4 people",
+        "reservePrice": "$50 (3 Hours), $70 (Full Day)",
+        "walkInPrice": "$60 (3 Hours), $80 (Full Day)"
+      },
+      {
+        "name": "Jeep Wrangler—4 door with A/C",
+        "maximumPersons": "5 people",
+        "reservePrice": "$70 (3 Hours), $100 (Full Day)",
+        "walkInPrice": "$85 (3 Hours), $125 (Full Day)"
+      },
+      {
+        "name": "Jeep Wrangler—2 door",
+        "maximumPersons": "4 people",
+        "reservePrice": "$60 (3 Hours), $85 (Full Day)",
+        "walkInPrice": "$70 (3 Hours), $90 (Full Day)"
+      }
+    ]
+  }

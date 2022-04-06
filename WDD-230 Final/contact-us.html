@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>~Scoots - A Freedom Worth Living For</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="Data/final-style-big.css" />
+  <link rel="stylesheet" href="Data/final-style-medium.css" />
+  <link rel="stylesheet" href="Data/final-style-small.css" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="Images/Scoots-logo.png"
+  />
+  <script defer src="Data/script-final.js"></script>
+  <script defer src="Data/weatherapi.js"></script>
+  <script defer src="Data/script-rentals.js"></script>
+  <header>
+    <img
+      class="headerImage"
+      src="Images/Scoots-logo.png"
+      alt="logo image"
+    />
+    <h1>~Scoots</h1>
+    <h2>A Freedom Worth Living For</h2>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rentals.html">Rentals</a></li>
+      <li><a href="reservations.html">Reservations</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Contact Us</h2>
+    <hr />
+    <form method="post" action="#" class="grid">
+      <fieldset>
+        <label
+          >Full name:
+          <input
+            type="text"
+            name="input1"
+            placeholder="John Jack Doe"
+            required
+            pattern="[Aa-Zz]"
+            minlength="5"
+          />
+        </label>
+        <label
+          >Email:
+          <input type="email" name="email" placeholder="example@email.com"
+        /></label>
+        <br />
+        <br />
+        <label
+          >Phone:
+          <input
+            type="tel"
+            name="phone"
+            placeholder="##########"
+            required
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+        /></label>
+        <label>
+          Zip Code:
+          <input
+            type="text"
+            name="zip"
+            placeholder="12345"
+            pattern="(\d{5}([\-]\d{4})?)"
+        /></label>
+        <label
+          >State / Country:
+          <input
+            type="text"
+            name="area"
+            placeholder="Full Area Name"
+            minlength="4"
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <label>Comments:</label>
+        <textarea id="additional" name="additional" rows="5" cols="65">
+        </textarea>
+      </fieldset>
+    </form>
+    <button class="rButton" onclick="window.location.href='thanks-2.html'">
+      Submit
+    </button>
+  </main>
+  <footer>
+    <section id="contact_resources">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239283.63938305786!2d-87.0143395488553!3d20.432027527425568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1649018819673!5m2!1sen!2sus"
+        width="400"
+        height="250"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <div id="contact_info">
+        <h2>Contact Us</h2>
+        <hr />
+        <p><b>&#9906;</b> 77700 San Miguel de Cozumel, Quintana Roo, Mexico</p>
+        <p>
+          <b>&#9906;</b> Av. Rafael E. Melgar 317, Centro, 77600 San Miguel de
+          Cozumel, Q.R., Mexico
+        </p>
+        <p>☎ 123-456-7890</p>
+        <p>📧 Scoots.Rentals@gmail.com</p>
+        <div class="social">
+          <a href="https://pinterest.com/" target="_blank"
+            ><img
+              id="Pinterest"
+              src="https://cdn.glitch.me/7b7ffc9d-8e50-4a30-af38-826644cee201%2Fpinterest.png?v=1633559673279"
+              alt="Pinterest"
+          /></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              id="facebook"
+              src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
+              alt="Facebook"
+          /></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img
+              id="youtube"
+              src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
+              alt="Youtube"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <p class="footer_info">
+      &copy;~Scoots 2022 | Nathan E. Wall | Utah | WDD 230 |
+      <span id="currentdate"></span>
+    </p>
+  </footer>
+</html>
