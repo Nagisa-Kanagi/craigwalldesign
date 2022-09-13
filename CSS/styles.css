@@ -46,6 +46,7 @@ header img {
 .content {
   margin-top: -18em;
   margin-left: 2em;
+  font-size: 25px;
 }
 hr {
   margin-right: 30em;
@@ -59,7 +60,7 @@ footer {
   width: auto;
   padding-bottom: 2em;
   line-height: 90px;
-  font-size: 20px;
+  font-size: 25px;
   background-color: #d972ff;
   text-align: center;
   padding-top: 10px;
