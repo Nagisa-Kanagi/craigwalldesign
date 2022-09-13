@@ -52,7 +52,7 @@ header img {
 }
 
 hr {
-  margin-right: 25em;
+  margin-right: 10em;
 }
 
 footer {
@@ -61,12 +61,11 @@ footer {
   border-radius: 25px 25px 25px 25px;
   height: 3em;
   width: auto;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   line-height: 90px;
   font-size: 25px;
   background-color: #d972ff;
   text-align: center;
-  padding-top: 10px;
 }
 
 .Page2Footer {
