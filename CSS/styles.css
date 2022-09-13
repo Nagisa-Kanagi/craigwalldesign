@@ -16,6 +16,7 @@ main {
   font-size: 35px;
   margin-bottom: -0.05em;
 }
+
 .Page2Title {
   font-family: "Teko", serif;
   border-radius: 25px 25px 25px 25px;
@@ -36,6 +37,7 @@ main {
   font-size: 50px;
   background-color: #d972ff;
 }
+
 header img {
   border-radius: 20px 20px 20px 20px;
   margin-left: 92em;
@@ -48,6 +50,7 @@ header img {
   margin-left: 2em;
   font-size: 25px;
 }
+
 hr {
   margin-right: 30em;
 }
@@ -81,19 +84,12 @@ section a {
   color: lightgreen;
 }
 
-a:hover {
-  color: lawngreen;
-}
-
 section a:hover {
   color: orange;
 }
 
 ul li a:hover {
   color: orange;
-}
-strong {
-  margin-left: 1.5em;
 }
 
 footer p {
@@ -144,19 +140,4 @@ picture img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.Page2Header,
-.Page2Footer,
-.Page2Main {
-  max-width: auto;
-  margin: 0 auto;
-}
-
-.Page2Header {
-  width: auto;
-}
-
-body {
-  margin-bottom: 50px;
 }
