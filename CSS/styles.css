@@ -40,12 +40,13 @@ main {
 
 header img {
   border-radius: 20px 20px 20px 20px;
+  margin-top: -1em;
   margin-left: 92em;
   filter: drop-shadow(1rem 1rem 1rem rgba(128, 128, 128, 1));
 }
 
 .content {
-  margin-top: -20em;
+  margin-top: -19em;
   margin-left: 2em;
   font-size: 20px;
 }
