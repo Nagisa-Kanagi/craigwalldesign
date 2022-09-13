@@ -84,12 +84,20 @@ section a {
   color: lightgreen;
 }
 
+a:hover {
+  color: lawngreen;
+}
+
 section a:hover {
   color: orange;
 }
 
 ul li a:hover {
   color: orange;
+}
+
+strong {
+  margin-left: 1.5em;
 }
 
 footer p {
@@ -140,4 +148,19 @@ picture img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.Page2Header,
+.Page2Footer,
+.Page2Main {
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.Page2Header {
+  width: auto;
+}
+
+body {
+  margin-bottom: 50px;
 }
