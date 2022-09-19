@@ -26,8 +26,8 @@ main {
   text-align: center;
   line-height: 90px;
   font-size: 50px;
+  padding-top: 0.25em;
   background-color: #0066ff;
-  margin-top: 0.5em;
 }
 
 .Title {
@@ -76,9 +76,11 @@ footer {
 
 .Page2Footer {
   position: absolute;
-  bottom: -22em;
+  bottom: -18em;
   left: 0.5em;
   right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   background-color: #0066ff;
 }
 
