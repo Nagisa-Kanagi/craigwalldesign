@@ -27,6 +27,7 @@ main {
   line-height: 90px;
   font-size: 50px;
   background-color: #0066ff;
+  margin-top: 0.5em;
 }
 
 .Title {
