@@ -55,8 +55,8 @@ hr {
   margin-right: 25em;
 }
 
-br {
-  margin-right: -10em;
+.Page2line {
+  max-width: 98%;
 }
 
 footer {
