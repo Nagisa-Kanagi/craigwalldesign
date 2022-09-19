@@ -56,7 +56,7 @@ hr {
 }
 
 br {
-  width: 95%;
+  margin-right: -10em;
 }
 
 footer {
@@ -121,7 +121,7 @@ section {
   height: auto;
   max-width: 31%;
   border-radius: 10px;
-  float: left;
+  float: center;
   justify-content: center;
 }
 
