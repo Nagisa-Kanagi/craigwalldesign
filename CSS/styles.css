@@ -25,7 +25,7 @@ main {
   text-align: center;
   line-height: 90px;
   font-size: 50px;
-  background-color: #009dff;
+  background-color: #0066ff;
 }
 
 .Title {
@@ -73,6 +73,7 @@ footer {
   bottom: -22em;
   left: 0.5em;
   right: 0.5em;
+  background-color: #0066ff;
 }
 
 a {
