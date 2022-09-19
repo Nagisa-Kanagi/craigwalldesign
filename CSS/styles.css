@@ -55,6 +55,10 @@ hr {
   margin-right: 25em;
 }
 
+br {
+  width: 95%;
+}
+
 footer {
   display: block;
   margin-top: 4em;
