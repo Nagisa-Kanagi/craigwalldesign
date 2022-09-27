@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
 
@@ -12,7 +12,7 @@ main {
 }
 
 h2 {
-  color: #536878;
+  color: black;
 }
 
 nav ul li a {
@@ -41,7 +41,7 @@ nav ul li a {
 
 nav {
   max-width: 100%;
-  background-color: #000080;
+  background-color: #CC8899;
   margin: 0 auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
@@ -82,8 +82,8 @@ nav {
 
 header,
 footer {
-  font-family: "Lato", sans-serif;
-  background-color: skyblue;
+  background-color: #000080;
+  color: white;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -106,13 +106,14 @@ nav ul {
 
 main {
   font-size: 25px;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 footer {
+  font-family: "League Gothic", sans-serif;
   font-size: 25px;
   width: 100%;
   height: 2em;
