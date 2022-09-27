@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&display=swap");
@@ -41,7 +42,7 @@ nav ul li a {
 
 nav {
   max-width: 100%;
-  background-color: #CC8899;
+  background-color: #800080;
   margin: 0 auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
@@ -67,7 +68,7 @@ nav {
   padding: 0.75em;
   text-align: left;
   text-decoration: none;
-  color: lightgray;
+  color: white;
   font-weight: 700;
 }
 
