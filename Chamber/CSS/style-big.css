@@ -128,6 +128,10 @@ header h2 {
   font-size: 25px;
 }
 
+footer h3 {
+  font-size: 25px
+}
+
 #contact_resources {
   background-color:#000080;
   display: grid;
@@ -136,10 +140,6 @@ header h2 {
   justify-items: center;
   align-items: center;
   text-align: left;
-}
-
-#contact_info h3 {
-  font-size: 25px
 }
 
 iframe {
