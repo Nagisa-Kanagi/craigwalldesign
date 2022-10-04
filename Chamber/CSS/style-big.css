@@ -141,5 +141,6 @@ header h2 {
 .footer_info {
   background-color:skyblue;
   color:black;
+  font-size: 25px;
   text-align:center;
 }
