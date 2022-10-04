@@ -4,38 +4,11 @@
 header {
   font-family: "Playfair Display", sans-serif;
   font-size: 30px;
+  align-items: center;
 }
 
 main {
   text-align:center;
-}
-
-h2 {
-  color: black;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 0.75rem;
-  text-decoration: none;
-  font-size: 30px;
-  background: linear-gradient(90deg, transparent, gold, transparent) bottom /
-    var(--d, 0) 10px no-repeat;
-  transition: 0.5s;
-}
-
-.content {
-  padding-left: 1em;
-  padding-right: 1em;
-  text-align: center;
-  font-size: 25px;
-  margin-bottom: 1em;
-  justify-content: left;
-  border: 1px solid black;
-  background-color: beige;
-  max-width: 650px;
 }
 
 nav {
@@ -45,29 +18,40 @@ nav {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
+nav ul li a {
+  background: linear-gradient(90deg, transparent, gold, transparent) bottom / var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+}
+
 .navigation {
   list-style: none;
   font-family: "League Gothic", sans-serif;
   font-weight: 50;
   padding: 0;
 }
+
 .navigation li {
   display: none;
 }
+
 .responsive li {
   display: block;
 }
+
 .navigation li:first-child {
   display: block;
 }
 
 .navigation a {
   display: block;
-  padding: 0.75em;
+  padding: 0.75rem;
   text-align: left;
   text-decoration: none;
   color: white;
-  font-weight: 700;
+  font-size: 30px;
+  background: linear-gradient(90deg, transparent, gold, transparent) bottom /
+    var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
 }
 
 .navigation a.ham::before {
@@ -85,10 +69,8 @@ footer {
   color: white;
   display: flex;
   flex-flow: column;
-  align-items: center;
   justify-content: center;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 header,
@@ -113,16 +95,8 @@ main {
 
 footer {
   font-family: "League Gothic", sans-serif;
-  color: #000080;
-  
   font-size: 25px;
   width: 100%;
-  height: 2em;
-}
-
-body {
-  font-family: "Merriweather", sans-serif;
-  margin: auto;
 }
 
 li {
@@ -134,7 +108,8 @@ li {
 }
 
 header img {
-  margin-right: 110em;
+  margin-right: 51em;
+  margin-top: 1em;
 }
 
 h2 {
@@ -143,12 +118,8 @@ h2 {
   max-width: 100%;
 }
 
-.bodyH2 {
-  font-size:40px;
-}
-
 header h1 {
-  margin-top: -2em;
+  margin-top: -2.5em;
   padding-bottom: 0.5em;
   font-size: 40px;
 }
@@ -156,71 +127,6 @@ header h1 {
 header h2 {
   margin-top: -2em;
   font-size: 25px;
-}
-
-
-header {
-  max-width: 98%;
-  background-color: skyblue;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border: 1px solid black;
-  font-family: "Lato", sans-serif;
-}
-
-nav {
-  max-width: 100%;
-  background-color: #000080;
-  margin: 0 auto;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-}
-
-.navigation {
-  list-style: none;
-  font-family: "League Gothic", sans-serif;
-  font-weight: 50;
-  padding: 0;
-}
-
-.navigation li {
-  display: none;
-}
-
-.responsive li {
-  display: block;
-}
-
-.navigation li:first-child {
-  display: block;
-}
-
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-family: "League Gothic", sans-serif;
-  font-weight: 700;
-}
-
-.navigation a.ham::before {
-  content: "≡ ";
-}
-
-.navigation a:hover {
-  color: white;
-  --d: 75%;
-  background-color: black;
-}
-
-header,
-main,
-footer {
-  margin: 0 auto;
 }
 
 #contact_resources {
@@ -234,7 +140,7 @@ footer {
 }
 
 .footer_info {
-  background-color:#800080;
-  color:white;
+  background-color:skyblue;
+  color:black;
   text-align:center;
 }
