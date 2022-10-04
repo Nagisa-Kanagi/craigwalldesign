@@ -138,6 +138,10 @@ header h2 {
   text-align: left;
 }
 
+iframe {
+  margin-right: 20em;
+}
+
 .footer_info {
   background-color:skyblue;
   color:black;
