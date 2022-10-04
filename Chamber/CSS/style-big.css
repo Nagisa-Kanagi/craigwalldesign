@@ -103,14 +103,14 @@ li {
 }
 
 .headerImage {
-  margin-right: 51em;
+  margin-right: 58em;
   margin-top: 0.7em;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .social {
-  margin-left: 50em;
-  margin-top: -2.5em;
+  margin-left: 58em;
+  margin-top: -2.7em;
 }
 
 h2 {
@@ -145,7 +145,8 @@ footer h3 {
 }
 
 iframe {
-  margin-right: 20em;
+  margin-right: 28em;
+  margin-top: 0.75em;
 }
 
 .footer_info {
