@@ -138,6 +138,10 @@ header h2 {
   text-align: left;
 }
 
+#contact_info h3 {
+  font-size: 25px
+}
+
 iframe {
   margin-right: 20em;
 }
