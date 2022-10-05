@@ -17,7 +17,6 @@ main {
 .Box1, .Box4, .Box5 {
   background: lightgray;
   font-size: 20px;
-  padding: 10px;
   border: 1px solid black;
   margin: 10px;
   width: 200px;
@@ -27,7 +26,6 @@ main {
 .Box2 {
   background: lightgray;
   font-size: 20px;
-  padding: 10px;
   border: 1px solid black;
   margin: 10px;
   width: 600px;
@@ -37,7 +35,6 @@ main {
 .Box3 {
   background: lightgray;
   font-size: 20px;
-  padding: 10px;
   border: 1px solid black;
   margin: 10px;
   width: 200px;
@@ -49,7 +46,6 @@ main {
 .Box6 {
   background: lightgray;
   font-size: 20px;
-  padding: 10px;
   border: 1px solid black;
   margin: 10px;
   width: 600px;
