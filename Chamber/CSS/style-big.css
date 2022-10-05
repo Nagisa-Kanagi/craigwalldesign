@@ -8,16 +8,40 @@ header {
 }
 
 main {
+  display:grid;
+  grid-template-columns:
   font-family: "Playfair Display", sans-serif;
   text-align:center;
 }
 
-.Box1 {
-  background: lightgray; 
-  font-size: 20px; 
-  padding: 10px; 
-  border: 1px solid black; 
+.Box1, .Box4, .Box5, .Box6 {
+  background: lightgray;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid black;
   margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.Box2 {
+  background: lightgray;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+.Box3 {
+  background: lightgray;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
 }
 
 nav {
