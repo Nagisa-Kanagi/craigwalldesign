@@ -8,6 +8,7 @@ header {
 }
 
 main {
+  max-width: 90%;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: "Playfair Display", sans-serif;
@@ -104,6 +105,7 @@ nav ul li a {
 
 header,
 footer {
+  max-width: 100%;
   background-color: #000080;
   color: white;
   display: flex;
@@ -114,7 +116,6 @@ footer {
 header,
 main,
 footer {
-  max-width: 100%;
   margin: 0 auto;
 }
 
