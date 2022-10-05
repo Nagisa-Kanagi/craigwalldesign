@@ -11,7 +11,6 @@ main {
   max-width: 90%;
   display:flex;
   flex-flow: column;
-  grid-template-columns: 1fr 1fr 1fr;
   font-family: "Playfair Display", sans-serif;
   text-align:center;
 }
