@@ -14,7 +14,7 @@ main {
   text-align:center;
 }
 
-.Box1, .Box4, .Box5, .Box6 {
+.Box1, .Box4, .Box5 {
   background: lightgray;
   font-size: 20px;
   padding: 10px;
@@ -41,6 +41,18 @@ main {
   border: 1px solid black;
   margin: 10px;
   width: 200px;
+  height: 200px;
+  justify-items: right;
+  align-items: right;
+}
+
+.Box6 {
+  background: lightgray;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  width: 600px;
   height: 200px;
 }
 
@@ -115,14 +127,6 @@ footer {
 nav ul {
   list-style-type: none;
   overflow: hidden;
-}
-
-main {
-  font-size: 25px;
-  font-family: "Playfair Display", sans-serif;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 footer {
