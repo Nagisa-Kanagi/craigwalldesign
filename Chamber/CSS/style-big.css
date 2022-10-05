@@ -25,7 +25,7 @@ main {
   border: 1px solid black;
   margin: 10px;
   width: 200px;
-  height: 180;;
+  height: 190px;
 }
 
 .Box2 {
@@ -43,6 +43,10 @@ main {
   margin: 10px;
   width: 200px;
   height: 600px;
+}
+
+.Box4 {
+    margin-top: -400px;
 }
 
 .Box6 {
