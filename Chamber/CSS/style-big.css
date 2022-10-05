@@ -7,12 +7,16 @@ header {
   align-items: center;
 }
 
-main {
-  max-width: 90%;
-  display:flex;
-  flex-flow: column;
-  font-family: "Playfair Display", sans-serif;
-  text-align:center;
+ain {
+    max-width: 90%;
+    display: flex;
+    flex-flow: row;
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .Box1, .Box4, .Box5 {
