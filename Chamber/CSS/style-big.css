@@ -9,7 +9,7 @@ header {
 
 main {
   display:grid;
-  grid-template-columns:
+  grid-template-columns: 1fr 1fr 1fr;
   font-family: "Playfair Display", sans-serif;
   text-align:center;
 }
