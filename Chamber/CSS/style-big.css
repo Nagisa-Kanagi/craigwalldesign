@@ -19,13 +19,12 @@ main {
     justify-content: center;
 }
 
-.Box1, .Box4, .Box5 {
+.Box1 {
   background: lightgray;
   font-size: 20px;
-  border: 1px solid black;
   margin: 10px;
   width: 200px;
-  height: 190px;
+  height: 605px;
 }
 
 .Box2 {
@@ -56,6 +55,16 @@ main {
   margin: 10px;
   width: 600px;
   height: 190px;
+  margin-left: -80px;
+  margin-top: -200px;
+}
+
+.Actions {
+  background: lightgray;
+  border: 1px solid black;
+  margin: 10px auto;
+  width: 200px;
+  height: 180px;
 }
 
 .Spotlight {
