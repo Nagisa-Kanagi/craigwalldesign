@@ -41,9 +41,10 @@ main {
   background: lightgray;
   font-size: 20px;
   border: 1px solid black;
+  padding: 10px;
   margin: 10px;
   width: 200px;
-  height: 200px;
+  height: 600px;
 }
 
 .Box6 {
@@ -52,6 +53,13 @@ main {
   border: 1px solid black;
   margin: 10px;
   width: 600px;
+  height: 200px;
+}
+
+.Spotlight {
+  background: lightgray;
+  border: 1px solid black;
+  width: 200px;
   height: 200px;
 }
 
