@@ -187,6 +187,10 @@ footer h3 {
   font-size: 25px
 }
 
+footer hr {
+  width: 95%;
+}
+
 #contact_resources {
   background-color:#000080;
   display: grid;
