@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 
 header {
   font-family: "Playfair Display", sans-serif;
   font-size: 30px;
   align-items: center;
+}
+
+#currentdate {
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  background-color: #0039a9;
+  width: 98%;
+  text-align: center;
 }
 
 main {
@@ -43,7 +52,7 @@ main {
 }
 
 .Box4 {
-    margin-top: -400px;
+  margin-top: -400px;
 }
 
 .Box6 {
@@ -77,6 +86,10 @@ nav {
   background-color: #800080;
   margin: 0 auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+li {
+  text-decoration: none;
 }
 
 .navigation {
@@ -143,10 +156,6 @@ footer {
   width: 100%;
 }
 
-li {
-  text-decoration: none;
-}
-
 .headerImage {
   margin-right: 59em;
   margin-top: 0.65em;
@@ -176,7 +185,7 @@ header h2 {
 }
 
 footer h3 {
-  font-size: 25px
+  font-size: 25px;
 }
 
 footer hr {
@@ -184,7 +193,7 @@ footer hr {
 }
 
 #contact_resources {
-  background-color:#000080;
+  background-color: #000080;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
