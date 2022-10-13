@@ -67,11 +67,12 @@ main {
 }
 
 .Actions {
-  background: lightgray;
-  border: 1px solid black;
-  margin: 13px auto;
-  width: 200px;
-  height: 190px;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 13px auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 191px;
 }
 
 .Spotlight {
