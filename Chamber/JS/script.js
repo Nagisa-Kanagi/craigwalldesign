@@ -51,7 +51,7 @@ document.getElementById("currentdate").textContent = fulldate;
 
 const date2 = document.querySelector("#currentdate2");
 
-if ((dayName == "Monday", "Tuesday")) {
+if ((dayName == "Monday"|| dayName == "Tuesday")) {
   var banner = document.createElement("div");
   banner.className = "b";
   banner.innerHTML =
@@ -73,8 +73,6 @@ if ((dayName == "Monday", "Tuesday")) {
     banner,
     document.body.childNodes[0]
   ).style.backgroundColor = "#800080";
-  document.body.insertBefore(
-    banner,
-    document.body.childNodes[0]
-  ).style.color = "white";
+  document.body.insertBefore(banner, document.body.childNodes[0]).style.color =
+    "white";
 }
