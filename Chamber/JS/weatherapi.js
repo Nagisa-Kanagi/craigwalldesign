@@ -11,7 +11,7 @@ fetch(weatherApiURL)
     }
 
     if (document.querySelector("#chill") !== null) {
-      document.querySelector("#chill").textContent = jsonObject.wind.deg;
+      document.querySelector("#chill").textContent = jsonObject.main.feels_like;
     }
 
     if (document.querySelector("#speed") !== null) {
