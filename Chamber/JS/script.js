@@ -51,7 +51,7 @@ document.getElementById("currentdate").textContent = fulldate;
 
 const date2 = document.querySelector("#currentdate2");
 
-if ((dayName == "Monday"|| dayName == "Tuesday")) {
+if (dayName == "Monday" || dayName == "Tuesday") {
   var banner = document.createElement("div");
   banner.className = "b";
   banner.innerHTML =
@@ -75,4 +75,14 @@ if ((dayName == "Monday"|| dayName == "Tuesday")) {
   ).style.backgroundColor = "#800080";
   document.body.insertBefore(banner, document.body.childNodes[0]).style.color =
     "white";
+}
+
+const mediaQuery = window.matchMedia("(max-width: 32.5em)");
+if (mediaQuery.matches) {
+  document.getElementById("overlay").innerHTML = "Small";
+}
+
+const mediaQuery2 = window.matchMedia("(min-width:33em, max-width: 55em)");
+if (mediaQuery2.matches) {
+  document.getElementById("overlay").innerHTML = "Medium";
 }
