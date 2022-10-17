@@ -84,6 +84,16 @@ main {
   height: 190px;
 }
 
+.weather {
+  border: 1px solid black;
+  margin: 13px auto;
+  width: 200px;
+  height: 190px;
+  font-size:15px;
+  color:white;
+  background-color: #000080;
+}
+
 .Spotlight {
   background: lightgray;
   border: 1px solid black;
