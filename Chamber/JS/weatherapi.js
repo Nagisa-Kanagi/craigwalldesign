@@ -7,12 +7,18 @@ fetch(weatherApiURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    if (document.querySelector("#currently") !== null) {
-      document.querySelector("#currently").textContent =
-        jsonObject.weather[0].main;
+    // console.table(jsonObject); // temporary checking for valid response and data parsing
+
+    if (document.querySelector("#temperature") !== null) {
       document.querySelector("#temperature").textContent = jsonObject.main.temp;
-      document.querySelector("#humidity").textContent =
-        jsonObject.main.humidity;
+    }
+
+    if (document.querySelector("#chill") !== null) {
+      document.querySelector("#chill").textContent =
+        jsonObject.wind.deg;
+    }
+
+    if (document.querySelector("#speed") !== null) {
       document.querySelector("#speed").textContent = jsonObject.wind.speed;
     }
   });
