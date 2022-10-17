@@ -7,15 +7,13 @@ fetch(weatherApiURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    // console.table(jsonObject); // temporary checking for valid response and data parsing
 
     if (document.querySelector("#temperature") !== null) {
       document.querySelector("#temperature").textContent = jsonObject.main.temp;
     }
 
     if (document.querySelector("#chill") !== null) {
-      document.querySelector("#chill").textContent =
-        jsonObject.wind.deg;
+      document.querySelector("#chill").textContent = jsonObject.wind.deg;
     }
 
     if (document.querySelector("#speed") !== null) {
