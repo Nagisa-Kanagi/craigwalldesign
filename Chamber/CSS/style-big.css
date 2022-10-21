@@ -46,7 +46,7 @@ main {
 .Box2 #overlay {
   position: absolute;
   color: red;
-  top: 700px;
+  top: 625px;
   right: 650px;
   font-weight: bold;
   text-align: right;
