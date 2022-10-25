@@ -8,6 +8,7 @@ header {
 }
 
 #currentdate {
+  border-radius:25px;
   font-size: 20px;
   margin-bottom: 15px;
   padding-bottom: 5px;
