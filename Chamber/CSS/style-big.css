@@ -270,6 +270,7 @@ main figure:hover {
 }
 
 figcaption {
+  font-weight:800;
   background-color: white;
   text-align: center;
 }
