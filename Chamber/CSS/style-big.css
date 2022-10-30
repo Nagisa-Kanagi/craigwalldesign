@@ -310,6 +310,7 @@ main figure:hover {
 
 figcaption {
   font-weight:800;
+  color: black;
   background-color: white;
   text-align: center;
 }
