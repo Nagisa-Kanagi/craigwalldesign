@@ -3,31 +3,31 @@
   <title>Salt Lake Chamber of Commerce</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="CSS/style-big.css">
-  <link rel="stylesheet" href="CSS/style-medium.css">
-  <link rel="stylesheet" href="CSS/style-small.css">
+  <link rel="stylesheet" href="style-big.css">
+  <link rel="stylesheet" href="style-medium.css">
+  <link rel="stylesheet" href="style-small.css">
   <link rel="icon" type="image/png" href="Images/sketch-1664240039683.webp">
-  <script defer src="JS/script.js"></script>
-  <script src="JS/weatherapi.js"></script>
+  <script defer src="script.js"></script>
+  <script src="weatherapi.js"></script>
   <header>
     <img
       class="headerImage"
       src="Images/sketch-1664240039683.webp"
       alt="logo image"
-    />
+    >
     <div class="social">
       <a href="https://www.facebook.com/" target="_blank"
         ><img
           id="facebook"
           src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
           alt="Facebook"
-      /></a>
+      ></a>
       <a href="https://twitter.com/" target="_blank"
         ><img
           id="twitter"
           src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ftwitter%20icon.png?v=1633369798869"
           alt="Twitter"
-      /></a>
+      ></a>
     </div>
     <h1>Salt Lake Chamber of Commerce</h1>
     <h2>"Connect. Contribute. Improve."</h2>
@@ -43,109 +43,89 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-  <main>
-    <h2>Reservation Form</h2>
+  <main class="MainJoin">
+    <h2>Join Us</h2>
     <hr />
     <form method="post" action="#" class="grid">
       <fieldset>
         <label
-          >Full name:
+          >First name:
           <input
             type="text"
             name="input1"
             required
+            placeholder="John"
+            pattern="[Aa-Zz]"
+            minlength="2"
+          >
+        </label>
+        <label
+          >Last name:
+          <input
+            type="text"
+            name="input2"
+            required
+            placeholder="Doe"
             pattern="[Aa-Zz]"
             minlength="5"
-          />
+          >
         </label>
         <label
           >Email:
           <input type="email" name="email" placeholder="example@email.com"
-        /></label>
+        ></label>
         <label
           >Phone:
           <input
             type="tel"
             name="phone"
-            placeholder="##########"
+            placeholder="1234567890"
             required
             pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-        /></label>
-        <label
-          >Home State / Country:
-          <input
-            type="text"
-            name="area"
-            placeholder="Full Area Name"
-            minlength="4"
-        /></label>
+        ></label>
       </fieldset>
-
       <fieldset>
         <label
-          >First day needed:
-          <input type="date" name="theDate" id="rentdate" /></label
-        ><br />
-        <br />
-        <label>Rental Type:</label>
+          >Business position:
+          <input
+            title="text"
+            name="input4"
+            placeholder="Executive Director"
+            pattern="^[a-zA-Z0-9][a-zA-Z0-9_ -]*$"
+            minlength="7"
+          >
+        </label>
+        <label
+          >Business Name:
+          <input
+            title="text"
+            name="input4"
+            placeholder="Google"
+            required
+            pattern="[Aa-Zz]"
+          >
+        </label>
+        <br>
+        <br>
+        <label>Membership Level:</label>
         <select name="type" id="types">
           <option value="none" selected disabled hidden>
-            Select Rental Type ...
+            Select Membership Level...
           </option>
-          <option value="Honda Metro Scooter">Honda Metro Scooter</option>
-          <option value="Honda Dio Scooter">Honda Dio Scooter</option>
-          <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
-          <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
-          <option value="Jeep Wrangler—4 door with A/C">
-            Jeep Wrangler—4 door with A/C
-          </option>
-          <option value="Jeep Wrangler—2 door">Jeep Wrangler—2 door</option>
+          <option value="NP Membership">NP Membership (Non-profit organizations only) - $0 fee</option>
+          <option value="Bronze Membership">Bronze Membership - $50 fee</option>
+          <option value="Silver Membership">Silver Membership - $100 fee</option>
+          <option value="Gold Membership">Gold Membership - $200 fee</option>
         </select>
-        <br />
-        <div
-          >Rental Length (Days):
-          <input
-            type="range"
-            value="7"
-            min="1"
-            max="14"
-            list="tickmarks"
-            oninput="this.nextElementSibling.value = this.value"
-          />
-          <output>7</output>
-      </div>
-        <datalist id="tickmarks">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
-          <option value="6"></option>
-          <option value="7"></option>
-          <option value="8"></option>
-          <option value="9"></option>
-          <option value="10"></option>
-          <option value="11"></option>
-          <option value="12"></option>
-          <option value="13"></option>
-          <option value="14"></option>
-        </datalist>
-        <br />
-        <br />
-        <label>Rental Length:</label>
-        <select name="length" id="lengths">
-          <option value="none" selected disabled hidden>
-            Select Length ...
-          </option>
-          <option value="Half-Day (3 Hours)">Half-Day (3 Hours)</option>
-          <option value="Full Day">Full Day</option>
-        </select>
+        <br>
       </fieldset>
 
       <fieldset>
-        <label>Special accommodations or comments:</label>
+        <label>Business Description:</label>
         <textarea id="additional" name="additional" rows="5" cols="65">
         </textarea>
+        <input type="hidden" id="date" name="date" value="CurrentTime"> 
+        <input type="hidden" id="time" name="time" value="CurrentDate">
       </fieldset>
     </form>
     <button class="rButton" onclick="window.location.href='thankyou.html'">
@@ -165,7 +145,7 @@
       ></iframe>
       <div id="contact_info">
         <h3>Contact Information</h3>
-        <hr />
+        <hr>
         <p><b>&#9906;</b> 450 S State St. Salt Lake City, UT 84125</p>
         <p>☎ 385-319-6446</p>
         <p>📧 anteiku27@gmail.com</p>
