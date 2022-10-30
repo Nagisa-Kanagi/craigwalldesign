@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap");
 
 body {
+  background-color: darkgrey;
   font-family: "Anybody", sans-serif;
   margin: auto;
+  margin-top: 100px;
 }
 
 main hr {
@@ -20,11 +22,11 @@ h2 {
 }
 
 table {
-  text-align: center;
+  margin: auto;
   margin-top: 2em;
-  width: 100%;
+  width: 95%;
   border-collapse: collapse;
-  border: 3px solid blue;
+  border: 3px solid navy;
 }
 
 th {
@@ -37,6 +39,7 @@ td {
 }
 
 tr {
+  background-color: white;
   text-align: center;
 }
 
@@ -47,6 +50,6 @@ tr {
 #grey,
 #grey2,
 #grey3 {
-  border: 1px solid #dddddd;
-  background-color: #dddddd;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
 }
