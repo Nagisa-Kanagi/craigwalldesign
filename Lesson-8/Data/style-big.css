@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap");
+
+body {
+  font-family: "Anybody", sans-serif;
+  margin: auto;
+}
+
+main hr {
+  width: 30%;
+  margin-top: -0.75em;
+  margin-bottom: 0.75em;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 100%;
+}
+
+table {
+  text-align: center;
+  margin-top: 2em;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid blue;
+}
+
+th {
+  color: white;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+}
+
+tr {
+  text-align: center;
+}
+
+.Headers {
+  background-color: rgb(15, 6, 94);
+}
+
+#grey,
+#grey2,
+#grey3 {
+  border: 1px solid #dddddd;
+  background-color: #dddddd;
+}
