@@ -88,10 +88,11 @@
         <label
           >Business position:
           <input
-            title="text"
             name="input4"
             placeholder="Executive Director"
-            pattern="^[a-zA-Z0-9][a-zA-Z0-9_ -]*$"
+            pattern="[a-zA-Z -]"
+            required
+            title="Must contain only alphanumeric characters, spaces, and dashes"
             minlength="7"
           >
         </label>
