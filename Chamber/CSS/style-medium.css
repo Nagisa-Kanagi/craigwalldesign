@@ -1,8 +1,0 @@
-@media only screen and (min-width: 33em; max-width: 55em) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    justify-content: center;
-  }
-}
