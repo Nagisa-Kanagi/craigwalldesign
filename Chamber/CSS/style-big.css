@@ -26,13 +26,8 @@ main {
   justify-content: center;
 }
 
-.MainJoin {
+.Main2, .MainJoin, .DirectMain {
   max-width: 99%;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.DirectMain {
   display: grid;
   grid-template-columns: 1fr;
 }
