@@ -249,6 +249,42 @@ iframe {
   margin-bottom: 5px;
 }
 
+
+figure img {
+  padding: 15px;
+  display: block;
+  background-color: skyblue;
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+figure img[data-src] {
+  filter: blur(0.5em);
+}
+
+.container {
+  background-color: #000080;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main figure {
+  box-shadow: 0 0 10px #777777;
+}
+
+main figure:hover {
+  box-shadow: 0 0 50px #333333;
+}
+
+
+figcaption {
+  font-weight:800;
+  color: black;
+  background-color: white;
+
 form {
   text-align: center;
   width: 75%;
