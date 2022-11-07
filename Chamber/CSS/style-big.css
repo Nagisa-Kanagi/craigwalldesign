@@ -274,11 +274,11 @@ main figure:hover {
   box-shadow: 0 0 50px #333333;
 }
 
-
 figcaption {
   font-weight:800;
   color: black;
   background-color: white;
+}
 
 form {
   text-align: center;
