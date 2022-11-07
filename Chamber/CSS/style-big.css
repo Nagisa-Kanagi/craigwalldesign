@@ -27,6 +27,7 @@ main {
 }
 
 .Main2, .MainJoin, .DirectMain {
+  margin:auto;
   max-width: 99%;
   display: grid;
   grid-template-columns: 1fr;
