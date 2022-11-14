@@ -15,8 +15,8 @@ fetch(weatherApiURL)
         if(document.querySelector("#weather-icon") !== null) {
 		const imagesrc = "https://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
 		const desc = jsonObject.weather[0].description;
-		document.querySelector("#imagesrc").textContent = imagesrc;
-		document.querySelector("#icon").setAttribute("src", imagesrc);
-		document.querySelector("#icon").setAttribute("alt", desc);
+		document.querySelector("#weather-icon").textContent = imagesrc;
+		document.querySelector("#weather-icon").setAttribute("src", imagesrc);
+		document.querySelector("#weather-icon").setAttribute("alt", desc);
 	}
   });
