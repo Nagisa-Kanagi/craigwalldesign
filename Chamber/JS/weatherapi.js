@@ -6,10 +6,11 @@ fetch(weatherApiURL)
     return response.json();
   })
   .then(function (jsonObject) {
+    const imagesrc = "https://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
+    const desc = jsonObject.weather[0].description;
+    const finaldesc = desc.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
     if (document.querySelector("#temperature") !== null) {
       document.querySelector("#temperature").textContent = jsonObject.main.temp;
-      const imagesrc = "https://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
-      const desc = jsonObject.weather[0].description;
       document.querySelector("#weather-icon").textContent = imagesrc;
       document.querySelector("#weather-icon").setAttribute("src", imagesrc);
       document.querySelector("#weather-icon").setAttribute("alt", desc);
@@ -21,5 +22,11 @@ fetch(weatherApiURL)
 
     if (document.querySelector("#speed") !== null) {
       document.querySelector("#speed").textContent = jsonObject.wind.speed;
+    }
+  
+    if (document.querySelector("#currently") !== null) {
+      const desc = jsonObject.weather[0].description;
+      
+      document.querySelector("#currently").textContent = finaldesc;
     }
   });
