@@ -239,6 +239,11 @@ footer h3 {
   justify-items: center;
   align-items: center;
   text-align: left;
+  border:none;
+}
+
+#contact_resources:hover {
+  box-shadow:none;
 }
 
 iframe {
