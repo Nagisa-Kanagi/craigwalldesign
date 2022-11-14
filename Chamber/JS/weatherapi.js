@@ -25,8 +25,6 @@ fetch(weatherApiURL)
     }
   
     if (document.querySelector("#currently") !== null) {
-      const desc = jsonObject.weather[0].description;
-      
       document.querySelector("#currently").textContent = finaldesc;
     }
   });
