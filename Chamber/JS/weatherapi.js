@@ -8,6 +8,11 @@ fetch(weatherApiURL)
   .then(function (jsonObject) {
     if (document.querySelector("#temperature") !== null) {
       document.querySelector("#temperature").textContent = jsonObject.main.temp;
+      const imagesrc = "https://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
+      const desc = jsonObject.weather[0].description;
+      document.querySelector("#weather-icon").textContent = imagesrc;
+      document.querySelector("#weather-icon").setAttribute("src", imagesrc);
+      document.querySelector("#weather-icon").setAttribute("alt", desc);
     }
 
     if (document.querySelector("#chill") !== null) {
