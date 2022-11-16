@@ -114,7 +114,6 @@ if ("IntersectionObserver" in window) {
 }
 
 var n = new Date();
-document.getElementById("date").value = n.toDateString();
 var hours = n.getHours();
 var mins = n.getMinutes();
 var seconds = n.getSeconds();
