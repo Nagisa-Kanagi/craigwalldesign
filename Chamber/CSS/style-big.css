@@ -108,8 +108,8 @@ main {
 }
 
 .weather div img {
-  width: 50%;
-  margin-top: -1em;
+  width: 75%;
+  margin-top: -1.5em;
   margin-left: 20px;
 }
 
@@ -120,7 +120,7 @@ main {
 
 .weather div p {
   margin-right: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 hr {
