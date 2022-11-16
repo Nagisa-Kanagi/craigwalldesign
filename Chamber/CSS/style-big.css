@@ -54,7 +54,7 @@ main {
 .Box2 #overlay {
   position: absolute;
   color: red;
-  top: 630px;
+  top: 690px;
   right: 650px;
   font-weight: bold;
   text-align: right;
@@ -120,7 +120,7 @@ main {
 
 .weather div p {
   margin-right: 15px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 hr {
