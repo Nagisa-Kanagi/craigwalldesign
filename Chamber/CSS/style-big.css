@@ -43,7 +43,8 @@ main {
 }
 
 .Box2 {
-  background: lightgray;
+  background-color: #000080;
+  color: white;
   font-size: 20px;
   border: 1px solid black;
   margin: 10px;
@@ -62,7 +63,8 @@ main {
 }
 
 .Box3 {
-  background: lightgray;
+  background-color: #000080;
+  color: white;
   font-size: 20px;
   margin: 10px;
   width: 200px;
@@ -74,7 +76,8 @@ main {
 }
 
 .Box6 {
-  background: lightgray;
+  background-color: #000080;
+  color: white;
   font-size: 20px;
   border: 1px solid black;
   margin: 10px;
@@ -118,7 +121,7 @@ main {
   font-size: 15px;
 }
 
-Actions h3 {
+.Actions h3 {
   margin-bottom: 10px;
   font-size: 20px;
 }
