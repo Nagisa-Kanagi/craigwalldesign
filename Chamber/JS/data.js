@@ -15,28 +15,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name").appendChild(h2);
+      document.querySelector(".name").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url").appendChild(h3);
+      document.querySelector(".url").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address").appendChild(h32);
+      document.querySelector(".address").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone").appendChild(h33);
+      document.querySelector(".phone").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership").appendChild(h34);
+      document.querySelector(".membership").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image").appendChild(img);
+      document.querySelector(".image").appendChild(img);
     }
   });
 
@@ -55,28 +55,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name2").appendChild(h2);
+      document.querySelector(".name2").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url2").appendChild(h3);
+      document.querySelector(".url2").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address2").appendChild(h32);
+      document.querySelector(".address2").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone2").appendChild(h33);
+      document.querySelector(".phone2").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership2").appendChild(h34);
+      document.querySelector(".membership2").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image2").appendChild(img);
+      document.querySelector(".image2").appendChild(img);
     }
   });
 
@@ -95,28 +95,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name3").appendChild(h2);
+      document.querySelector(".name3").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url3").appendChild(h3);
+      document.querySelector(".url3").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address3").appendChild(h32);
+      document.querySelector(".address3").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone3").appendChild(h33);
+      document.querySelector(".phone3").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership3").appendChild(h34);
+      document.querySelector(".membership3").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image3").appendChild(img);
+      document.querySelector(".image3").appendChild(img);
     }
   });
 
@@ -135,28 +135,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name4").appendChild(h2);
+      document.querySelector(".name4").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url4").appendChild(h3);
+      document.querySelector(".url4").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address4").appendChild(h32);
+      document.querySelector(".address4").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone4").appendChild(h33);
+      document.querySelector(".phone4").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership4").appendChild(h34);
+      document.querySelector(".membership4").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image4").appendChild(img);
+      document.querySelector(".image4").appendChild(img);
     }
   });
 
@@ -175,28 +175,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name5").appendChild(h2);
+      document.querySelector(".name5").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url5").appendChild(h3);
+      document.querySelector(".url5").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address5").appendChild(h32);
+      document.querySelector(".address5").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone5").appendChild(h33);
+      document.querySelector(".phone5").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership5").appendChild(h34);
+      document.querySelector(".membership5").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image5").appendChild(img);
+      document.querySelector(".image5").appendChild(img);
     }
   });
 
@@ -215,15 +215,15 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name6").appendChild(h2);
+      document.querySelector(".name6").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url6").appendChild(h3);
+      document.querySelector(".url6").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address6").appendChild(h32);
+      document.querySelector(".address6").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
@@ -236,7 +236,7 @@ fetch(requestURL)
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image6").appendChild(img);
+      document.querySelector(".image6").appendChild(img);
     }
   });
 
@@ -255,28 +255,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name7").appendChild(h2);
+      document.querySelector(".name7").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url7").appendChild(h3);
+      document.querySelector(".url7").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address7").appendChild(h32);
+      document.querySelector(".address7").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone7").appendChild(h33);
+      document.querySelector(".phone7").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership7").appendChild(h34);
+      document.querySelector(".membership7").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image7").appendChild(img);
+      document.querySelector(".image7").appendChild(img);
     }
   });
 
@@ -295,28 +295,28 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name8").appendChild(h2);
+      document.querySelector(".name8").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url8").appendChild(h3);
+      document.querySelector(".url8").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address8").appendChild(h32);
+      document.querySelector(".address8").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone8").appendChild(h33);
+      document.querySelector(".phone8").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership8").appendChild(h34);
+      document.querySelector(".membership8").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image8").appendChild(img);
+      document.querySelector(".image8").appendChild(img);
     }
   });
 
@@ -335,27 +335,27 @@ fetch(requestURL)
     for (let i = 0; i < companies.length; i++) {
       let h2 = document.createElement("h2");
       h2.textContent = companies[i].name;
-      document.querySelector("h2.name9").appendChild(h2);
+      document.querySelector(".name9").appendChild(h2);
 
       let h3 = document.createElement("h3");
       h3.textContent = companies[i].url;
-      document.querySelector("h3.url9").appendChild(h3);
+      document.querySelector(".url9").appendChild(h3);
 
       let h32 = document.createElement("h3");
       h32.textContent = companies[i].address;
-      document.querySelector("h3.address9").appendChild(h32);
+      document.querySelector(".address9").appendChild(h32);
 
       let h33 = document.createElement("h3");
       h33.textContent = companies[i].phone;
-      document.querySelector("h3.phone9").appendChild(h33);
+      document.querySelector(".phone9").appendChild(h33);
 
       let h34 = document.createElement("h3");
       h34.textContent = companies[i].membership;
-      document.querySelector("h3.membership9").appendChild(h34);
+      document.querySelector(".membership9").appendChild(h34);
 
       let img = document.createElement("img");
       img.setAttribute("src", companies[i].imageurl);
       img.setAttribute("alt", companies[i].name);
-      document.querySelector("img.image9").appendChild(img);
+      document.querySelector(".image9").appendChild(img);
     }
   });
