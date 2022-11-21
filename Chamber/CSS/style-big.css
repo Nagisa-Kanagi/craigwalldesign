@@ -217,6 +217,15 @@ li {
   font-size: 30px;
 }
 
+.Box6 a {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+.Box6 a:hover {
+  color: lawngreen;
+}
+
 .navigation a.ham::before {
   content: "≡ ";
 }
