@@ -308,6 +308,29 @@ figure img[data-src] {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.container2 {
+    position: relative;
+    text-align: center;
+}
+
+.top {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    color: deepskyblue;
+    font-size: 25px;
+}
+
+.BottomButton {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    color:  white;
+    width:100px;
+    height: 25px;
+    background-color:#800080;
+}
+
 main figure {
   box-shadow: 0 0 10px #777777;
 }
