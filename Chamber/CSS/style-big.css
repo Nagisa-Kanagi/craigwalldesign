@@ -114,6 +114,10 @@ main {
   margin-left: 20px;
 }
 
+.Actions p {
+  font-size: 15px;
+}
+
 .weather p {
   margin-top: -0.5em;
   font-size: 15px;
