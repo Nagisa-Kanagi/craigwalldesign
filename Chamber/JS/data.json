@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "name": "Google",
+      "url": "www.about.google",
+      "address": "1600 Amphitheatre Parkway Mountain View, CA 94043",
+      "phone": "(650) 253-0000",
+      "membership": "Gold Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/Google.jpeg?v=1667769517011"
+    },
+    {
+      "name": "Amazon",
+      "url": "www.aboutamazon.com/workplace/corporate-offices",
+      "address": "440 Terry Ave N, Seattle, WA 98109",
+      "phone": "(206) 266-1000",
+      "membership": "Gold Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/USRDI3D23UI6XDC6GLSHWQVVDM.jpg?v=1667778448792"
+    },
+    {
+      "name": "Disney",
+      "url": "www.disney.com",
+      "address": "500 South Buena Vista Street Burbank, CA 91521",
+      "phone": "(818)-560-1000",
+      "membership": "Gold Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/Disney.png?v=1667780299644"
+    },
+    {
+      "name": "Arby's",
+      "url": "www.arbys.com",
+      "address": "1090 Hammond Dr, Atlanta, GA 30328",
+      "phone": "(678)-514-4100",
+      "membership": "Silver Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/Arbys-Symbol.png?v=1667779468238"
+    },
+    {
+      "name": "Living Planet Aquarium",
+      "url": "www.thelivingplanet.com",
+      "address": "12033 Lone Peak Pkwy, Draper, UT 84020",
+      "phone": "(801) 355-3474",
+      "membership": "Silver Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/LPA.jpg?v=1667780912351"
+    },
+    {
+      "name": "Gardner Village",
+      "url": "www.gardnervillage.com",
+      "address": "1100 W 7800 S, West Jordan, UT 84088",
+      "phone": "(801) 566-8903",
+      "membership": "Silver Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/53861_GV-LOGO-262x150.png?v=1667782439635"
+    },
+    {
+      "name": "WWF",
+      "url": "www.worldwildlife.org",
+      "address": "1250 24th Street, N.W.. Washington, DC 20037",
+      "phone": "(800)-960-0993",
+      "membership": "NP Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/WWF.jpg?v=1667780519949"
+    },
+    {
+      "name": "American Red Cross",
+      "url": "www.redcross.org",
+      "address": "2025 East Street, NW, Suite 100, Washington, DC 20006",
+      "phone": "(800) 733-2767",
+      "membership": "NP Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/arc-logo.jpeg?v=1667781394576"
+    },
+    {
+      "name": "Boy Scouts of America",
+      "url": "www.scouting.org",
+      "address": "1325 W. Walnut Hill Lane, Irving, TX 75038",
+      "phone": "(435) 882-1855",
+      "membership": "NP Member",
+      "imageurl": "https://cdn.glitch.global/c5cb1fd3-36af-4813-869d-7bdb26362488/boy-scouts.jpg?v=1667782094016"
+    }
+  ]
+}
