@@ -131,6 +131,11 @@ main {
   font-size: 15px;
 }
 
+.Spotlight p {
+  font-size: 15px;
+  margin: auto;
+}
+
 .weather div p {
   margin-right: 15px;
   font-size: 24px;
