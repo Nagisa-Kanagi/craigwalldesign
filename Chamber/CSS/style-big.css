@@ -286,7 +286,6 @@ iframe {
   margin-bottom: 5px;
 }
 
-
 figure img {
   padding: 15px;
   display: block;
@@ -329,6 +328,11 @@ figure img[data-src] {
     width:100px;
     height: 25px;
     background-color:#800080;
+}
+
+.BottomButton:hover {
+  background-color: #0039a9;
+  color: gold;
 }
 
 main figure {
