@@ -146,6 +146,11 @@ hr {
   margin-top: -10px;
 }
 
+.Spotlight hr {
+  width: 85%;
+  margin: 5px auto;
+}
+
 footer hr {
   width: 95%;
 }
