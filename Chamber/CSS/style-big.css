@@ -85,7 +85,8 @@ main {
 }
 
 .Actions {
-  background: lightgray;
+  background-color: #000080;
+  color: white;
   border: 1px solid black;
   margin: 13px auto;
   width: 200px;
