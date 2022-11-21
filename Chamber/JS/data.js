@@ -1,4 +1,4 @@
-const requestURL = "ethereal-mango-wire.glitch.me/data.json";
+const requestURL = "data.json";
 
 fetch(requestURL)
   .then(function (response) {
