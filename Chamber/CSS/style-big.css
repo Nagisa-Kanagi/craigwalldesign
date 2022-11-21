@@ -118,6 +118,10 @@ main {
   font-size: 15px;
 }
 
+Actions h3 {
+    font-size: 20px;
+}
+
 .weather p {
   margin-top: -0.5em;
   font-size: 15px;
