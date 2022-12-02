@@ -1,0 +1,73 @@
+@media only screen and (max-width: 32.5em) {
+  #cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .social {
+    margin: auto;
+  }
+  
+  .social img {
+    margin-top: 10px;
+    width: 15%;
+  }
+  
+  .data {
+    margin: auto;
+  }
+  
+  .action {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 100px;
+    height: 20px;
+  }
+  
+  .action h2 {
+    margin-top: -10px;
+    padding: 0px;
+    font-size: 10px;
+  }
+  
+  .action button {
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    height: 20px;
+    font-size: 10px;
+    margin-top: -100px;
+  }
+  
+  form {
+    margin: auto;
+    max-width: 90%;
+  }
+  
+  .contents {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  #additional {
+    width: 225px;
+  }
+  
+  iframe {
+    width: 150px;
+  }
+  
+  #contact_info {
+    margin-left: -40px;
+    font-size: 10px;
+  }
+  
+  #contact_info h2 {
+    font-size: 15px;
+  }
+  
+  .footer_info p, .footer_info2 p {
+    margin: auto;
+    font-size: 10px;
+  }
+}
