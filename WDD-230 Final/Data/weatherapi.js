@@ -1,35 +1,38 @@
 const weatherApiURL =
-  "https://api.openweathermap.org/data/2.5/weather?id=3530103&units=imperial&appid=b7459806cc0deb3409dbe6c09533b316";
+  "https://api.openweathermap.org/data/2.5/weather?id=5334223&units=imperial&appid=b7459806cc0deb3409dbe6c09533b316";
 const forecastApiURL =
-  "https://api.openweathermap.org/data/2.5/forecast?id=3530103&units=imperial&appid=b7459806cc0deb3409dbe6c09533b316";
+  "https://api.openweathermap.org/data/2.5/forecast?id=5334223&units=imperial&appid=b7459806cc0deb3409dbe6c09533b316";
+
 
 fetch(weatherApiURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    if (document.querySelector("#currently") !== null) {
-      document.querySelector("#currently").textContent =
-        jsonObject.weather[0].main;
+    const imagesrc = "https://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
+    const desc = jsonObject.weather[0].description;
+    const finaldesc = desc.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+    if (document.querySelector("#temperature") !== null) {
       document.querySelector("#temperature").textContent = jsonObject.main.temp;
-      document.querySelector("#humidity").textContent =
-        jsonObject.main.humidity;
-      document.querySelector("#speed").textContent = jsonObject.wind.speed;
+      document.querySelector("#weather-icon").textContent = imagesrc;
+      document.querySelector("#weather-icon").setAttribute("src", imagesrc);
+      document.querySelector("#weather-icon").setAttribute("alt", desc);
     }
 
-    if (document.querySelector("#imagesrc") !== null) {
-      const imagesrc =
-        "https://openweathermap.org/img/w/" +
-        jsonObject.weather[0].icon +
-        ".png";
-      const desc = jsonObject.weather[0].description;
-      document.querySelector("#imagesrc").textContent = imagesrc;
-      document.querySelector("#icon").setAttribute("src", imagesrc);
-      document.querySelector("#icon").setAttribute("alt", desc);
+    if (document.querySelector("#chill") !== null) {
+      document.querySelector("#chill").textContent = jsonObject.main.feels_like;
     }
-  });
 
-fetch(forecastApiURL)
+    if (document.querySelector("#humidity") !== null) {
+      document.querySelector("#humidity").textContent = jsonObject.main.humidity;
+    }
+  
+    if (document.querySelector("#currently") !== null) {
+      document.querySelector("#currently").textContent = finaldesc;
+    }
+  })
+
+  fetch(forecastApiURL)
   .then(function (response) {
     return response.json();
   })
