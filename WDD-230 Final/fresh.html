@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Fresh - Bountiful Foods</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Data/style-big.css">
+  <link rel="stylesheet" href="Data/style-small.css">
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Chibi-Fruit.png?v=1669526400273"
+  />
+  <script defer src="Data/script-final.js"></script>
+  <script defer src="Data/script-fruit.js"></script>
+  <header>
+    <img
+      class="headerImage"
+      src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Chibi-Fruit.png?v=1669526400273"
+      alt="logo image"
+    >
+    <h1>Bountiful Foods</h1>
+    <h2>Organic Foods That Taste Good</h2>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fresh.html">Fresh</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <img
+      src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Cocktail%20Banner.jpg?v=1669595186226"
+      alt="Cocktail Banner Image"
+    >
+    <h2>Build Your Own Specialty Drink</h2>
+    <hr>
+    <div id="userinput">
+      <form id="form">
+        <fieldset>
+          <label
+            >First Name:
+            <input
+              type="text"
+              value=""
+              id="Name"
+              name="input1"
+              placeholder="John"
+              required
+              pattern="[Aa-Zz]"
+              minlength="2"
+            >
+          </label>
+          <label
+            >Email:
+            <input type="email" name="email" id="Email" value="" placeholder="example@email.com"
+          ></label>
+          <label
+            >Phone:
+            <input
+              type="tel"
+              name="phone"
+              id="Phone"
+              value=""
+              placeholder="123-456-7890"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            >
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>Fruit Choices:</label>
+          <select id="locality-dropdown1" value="" name="locality"></select>
+          <select id="locality-dropdown2" value="" name="locality2"></select>
+          <select id="locality-dropdown3" value="" name="locality3"></select>
+        </fieldset>
+        <fieldset>
+          <label>Special Instructions:</label>
+          <br>
+          <textarea id="additional" name="additional" value="" rows="5" cols="65">
+          </textarea>
+        </fieldset>
+      
+        <button id="rButton" name="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </main>
+  <footer class="mainfooter">
+    <div class="footer_info">
+      <p>
+        &copy;Bountiful Foods 2022 | Nathan E. Wall | WDD 230 Project |
+        <span id="lastModified"></span> | <a href="attribution.html" target="_blank">Resources</a>
+      </p>
+      <div class="social">
+        <a href="https://pinterest.com/" target="_blank"
+          ><img
+            id="Pinterest"
+            src="https://cdn.glitch.me/7b7ffc9d-8e50-4a30-af38-826644cee201%2Fpinterest.png?v=1633559673279"
+            alt="Pinterest"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            id="facebook"
+            src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
+            alt="Facebook"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img
+            id="youtube"
+            src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
+            alt="Youtube"
+        /></a>
+      </div>
+    </div>
+  </footer>
+</html>
