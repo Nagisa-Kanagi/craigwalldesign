@@ -1,4 +1,4 @@
-const requestURL = "fruit-data.json";
+const requestURL = "Data/fruit-data.json";
 
 fetch(requestURL)
   .then(function (response) {
