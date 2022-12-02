@@ -1,142 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>~Scoots - A Freedom Worth Living For</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="Data/final-style-big.css" />
-  <link rel="stylesheet" href="Data/final-style-medium.css" />
-  <link rel="stylesheet" href="Data/final-style-small.css" />
+  <title>Bountiful Foods - Organic Foods That Taste Good</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style-big.css">
+  <link rel="stylesheet" href="style-small.css">
   <link
     rel="icon"
     type="image/png"
-    href="Images/Scoots-logo.png"
-  />
-  <script defer src="Data/script-final.js"></script>
-  <script defer src="Data/weatherapi.js"></script>
-  <script defer src="Data/script-rentals.js"></script>
+    href="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Chibi-Fruit.png?v=1669526400273"
+  >
+  <script defer src="script-final.js"></script>
+  <script defer src="weatherapi.js"></script>
   <header>
     <img
       class="headerImage"
-      src="Images/Scoots-logo.png"
+      src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Chibi-Fruit.png?v=1669526400273"
       alt="logo image"
-    />
-    <h1>~Scoots</h1>
-    <h2>A Freedom Worth Living For</h2>
+    >
+    <h1>Bountiful Foods</h1>
+    <h2>Organic Foods That Taste Good</h2>
   </header>
   <nav>
     <ul class="navigation">
       <li><a class="ham" href="#">Menu</a></li>
       <li><a href="index.html">Home</a></li>
-      <li><a href="rentals.html">Rentals</a></li>
-      <li><a href="reservations.html">Reservations</a></li>
-      <li><a href="tours.html">Tours</a></li>
-      <li><a href="contact-us.html">Contact Us</a></li>
+      <li><a href="fresh.html">Fresh</a></li>
+      <li><a href="about-us.html">About Us</a></li>
     </ul>
   </nav>
   <main>
     <div class="action">
-      <h2>Come journey with us!</h2>
-      <button onclick="window.location.href='reservations.html'">
-        Make A Reservation
+      <h2>Build your own drink!</h2>
+      <button onclick="window.location.href='fresh.html'">
+        Make A Drink
       </button>
     </div>
     <img
-      src="Images/vespa-2.jpg"
-      alt="Vespa Banner Image"
-    />
+      src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/banner-food-assurance_fresh-food_1000x302px.jpg?v=1669586485910"
+      alt="Fruits Banner Image"
+    >
     <div class="contents">
       <span
         ><img
-          src="Images/cozumel-1332565_1920.jpg"
-          alt="Cozumel Beach Resort"
-      /></span>
+          src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Fruit%20Bowl.jpg?v=1669586255424"
+          alt="Fruit Bowl"
+      ></span>
       <span
         ><img
-          src="Images/istockphoto1.jpg"
-          alt="Cozumel Beach"
-      /></span>
+          src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Fruit%20Cocktails.jpg?v=1669585810009"
+          alt="Fruit Cocktails"
+      ></span>
       <span
         ><img
-          src="Images/cozumel-3322653_1920.jpg"
-          alt="Cozumel Cities"
-      /></span>
-      <h2>Cozumel is beautiful</h2>
-      <br />
+          src="https://cdn.glitch.global/0d8a47e2-2b91-4df1-a1bd-348ad3cca3e6/Fruit%20Pancakes.jpg?v=1669586986473"
+          alt="Fruit Pancakes"
+      ></span>
+      <h2>Fruit Is Delicious</h2>
+      <br>
       <p>
-        Cozumel is an amazing place to be. We hope that our scooters will help
-        you immerse yourselves in the surrounding 5-star scenery.
+        Fruit can provide new and bold flavours to experience.</p>
+      <p>
+        We hope that our
+        fruit will help you experience a new and exciting flavour pallet.
       </p>
     </div>
-
-    <h2>Weather Forcast for Cozumel, MX</h2>
-    <hr />
+    <h2>Weather in Carlsbad, CA</h2>
+    <h3>Today</h3>
+    <hr class="weatherhr" />
+    <div class="weather">
+      <div>
+        <img src="" alt="" id="weather-icon">
+        <p><span id="currently"></span></p>
+      </div>
+      <hr>
+      <p>Currently: <span id="temperature"></span>&deg; F</p>
+      <p>Wind Chill: <span id="chill"></span>&deg; F</p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+    </div>
+    <h3>5-Day Forecast</h3>
+    <hr class="weatherhr2">
     <div class="content1">
       <div class="flex"></div>
     </div>
-    <h2>Types of Rentals</h2>
-    <hr />
-    <div class="content2">
-      <h3>Honda Motor Scooters</h3>
-      <hr />
-      <p>Honda Metropolitan (49cc)—1 person</p>
-      <p>Honda Dio (110cc)—2 person</p>
-      <p>Honda PCX150 (149cc)—2 person</p>
-      <h3>ATV Side-by-Side</h3>
-      <hr />
-      <p>Honda Pioneer 1000</p>
-      <h3>Jeep Rentals</h3>
-      <hr />
-      <p>4-door Jeep Wrangler—manual with A/C—5 people max</p>
-      <p>2-door Jeep Wrangler—open air—manual—4 people max</p>
-    </div>
   </main>
-  <footer>
-    <section id="contact_resources">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239283.63938305786!2d-87.0143395488553!3d20.432027527425568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1649018819673!5m2!1sen!2sus"
-        width="400"
-        height="250"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-
-      <div id="contact_info">
-        <h2>Contact Us</h2>
-        <hr />
-        <p><b>&#9906;</b> 77700 San Miguel de Cozumel, Quintana Roo, Mexico</p>
-        <p>
-          <b>&#9906;</b> Av. Rafael E. Melgar 317, Centro, 77600 San Miguel de
-          Cozumel, Q.R., Mexico
-        </p>
-        <p>☎ 123-456-7890</p>
-        <p>📧 Scoots.Rentals@gmail.com</p>
-        <div class="social">
-          <a href="https://pinterest.com/" target="_blank"
-            ><img
-              id="Pinterest"
-              src="https://cdn.glitch.me/7b7ffc9d-8e50-4a30-af38-826644cee201%2Fpinterest.png?v=1633559673279"
-              alt="Pinterest"
-          /></a>
-          <a href="https://www.facebook.com/" target="_blank"
-            ><img
-              id="facebook"
-              src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
-              alt="Facebook"
-          /></a>
-          <a href="https://www.youtube.com/" target="_blank"
-            ><img
-              id="youtube"
-              src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
-              alt="Youtube"
-          /></a>
-        </div>
+  <footer class="mainfooter">
+    <div class="footer_info">
+      <p>
+        &copy;Bountiful Foods 2022 | Nathan E. Wall | WDD 230 Project |
+        <span id="lastModified"></span> | <a href="attribution.html" target="_blank">Resources</a>
+      </p>
+      <div class="social">
+        <a href="https://pinterest.com/" target="_blank"
+          ><img
+            id="Pinterest"
+            src="https://cdn.glitch.me/7b7ffc9d-8e50-4a30-af38-826644cee201%2Fpinterest.png?v=1633559673279"
+            alt="Pinterest"
+        ></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            id="facebook"
+            src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Ffacebook%20icon.png?v=1633369779037"
+            alt="Facebook"
+        ></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img
+            id="youtube"
+            src="https://cdn.glitch.me/a02eaa16-f07f-4709-bbdc-3f8ee64982ef%2Fyoutube%20icon.png?v=1633369804808"
+            alt="Youtube"
+        ></a>
       </div>
-    </section>
-    <p class="footer_info">
-      &copy;~Scoots 2022 | Nathan E. Wall | Utah | WDD 230 |
-      <span id="currentdate"></span>
-    </p>
+    </div>
   </footer>
 </html>
