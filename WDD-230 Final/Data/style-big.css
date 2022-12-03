@@ -85,15 +85,17 @@ form {
 }
 
 fieldset {
-  background-color: #f35588;
+  background: radial-gradient(purple, #c585f7);
   color: white;
+  font-weight: bold;
+  margin: auto;
   border-radius: 15px;
 }
 
 label input,
 select,
 textarea {
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 main a {
@@ -109,13 +111,19 @@ main a {
 }
 
 #rButton {
+  color: white;
   font-family: "Anybody", sans-serif;
   font-size: 20px;
   width: 7em;
   height: 3em;
   margin: 10px auto;
   margin-bottom: 3em;
-  background-color: limegreen;
+  border-radius: 10px;
+  background: limegreen;
+}
+
+#rButton:hover {
+  background: radial-gradient(limegreen, #2e742b);
 }
 
 h2 {
@@ -602,8 +610,23 @@ tr {
     display: flex;
   }
   
+  fieldset {
+    width: 850px;
+  }
+  
+  input, select {
+    border-radius: 5px;
+    height: 25px;
+  }
+  
+  #locality-dropdown1 {
+    margin-top: 5px;
+  }
+  
   #additional {
-    width: 1350px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 825px;
     height: 80px;
   }
 
