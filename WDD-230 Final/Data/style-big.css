@@ -260,7 +260,7 @@ main p {
 
 .data {
   display: grid;
-  margin-top: -15px;
+  margin-top: -8px;
   font-weight: 600;
   font-size: 18px;
   grid-template-columns: 1fr;
