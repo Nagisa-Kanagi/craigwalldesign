@@ -295,24 +295,8 @@ main p {
   margin-bottom: 15px;
 }
 
-.cards section {
-  background-color: skyblue;
-  padding: 5px;
-  margin: 5px;
-  border: 1px solid black;
-  border-radius: 25px;
-}
-
-.cards section h2 {
-  font-size: 30px;
-}
-
 .social img {
   border-radius: 50px;
-}
-
-.cards section img {
-  border-radius: 25px;
 }
 
 .weather div img {
@@ -326,10 +310,6 @@ main p {
   margin-top: -5px;
   border: 2px solid #c585f7;
   box-shadow: 0px 0px 20px #333333;
-}
-
-.cards section:hover {
-  box-shadow: 0px 0px 50px #333333;
 }
 
 .weather hr {
@@ -506,7 +486,7 @@ iframe {
 }
 
 #cards section {
-  color: lavenderblush;
+  color: white;
   background-color: #f28500;
   margin: 5px;
   border: 1px solid black;
