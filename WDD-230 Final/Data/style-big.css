@@ -211,7 +211,7 @@ main p {
   max-width: 98%;
   margin-top: 10px;
   padding: 15px;
-  background-color: #f35588;
+  background-color: #f28500;
   border: 2px solid purple;
 }
 
@@ -506,8 +506,8 @@ iframe {
 }
 
 #cards section {
-  color: white;
-  background-color: #f35588;
+  color: lavenderblush;
+  background-color: #f28500;
   margin: 5px;
   border: 1px solid black;
   border-radius: 15px;
