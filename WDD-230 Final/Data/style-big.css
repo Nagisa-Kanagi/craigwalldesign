@@ -85,7 +85,7 @@ form {
 }
 
 fieldset {
-  background: radial-gradient(purple, #c585f7);
+  background: radial-gradient(limegreen, #2e742b);
   color: white;
   font-weight: bold;
   margin: auto;
@@ -111,19 +111,22 @@ main a {
 }
 
 #rButton {
-  color: white;
+  text-align: center;
   font-family: "Anybody", sans-serif;
   font-size: 20px;
   width: 7em;
   height: 3em;
+  color: white;
+  font-weight: bold;
   margin: 10px auto;
   margin-bottom: 3em;
-  border-radius: 10px;
-  background: limegreen;
+  border-radius: 50px;
+  background: #f28500;
 }
 
 #rButton:hover {
-  background: radial-gradient(limegreen, #2e742b);
+  color: white;
+  background: radial-gradient(purple, #c585f7);
 }
 
 h2 {
@@ -185,11 +188,15 @@ nav ul li a {
   background-color: white;
 }
 
+stats p:after {
+  content: "| ";
+}
+
 main p {
   font-size: 12px;
 }
 
-.content p {
+td p, .content p {
   font-size: 15px;
 }
 
@@ -218,12 +225,14 @@ main p {
 .contents img {
   border-radius: 25px;
   box-shadow: 0px 0px 20px #333333;
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 400px;
 }
 
 .contents h2 {
+  margin-top: -25px;
   grid-column: 2;
+  column-span: all;
   text-align: center;
   font-size: 25px;
 }
@@ -233,7 +242,6 @@ main p {
   column-span: all;
   text-align: center;
   font-size: 18px;
-  margin: 0 auto;
 }
 
 .contents span + span {
@@ -295,8 +303,24 @@ main p {
   margin-bottom: 15px;
 }
 
+.cards section {
+  background-color: skyblue;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.cards section h2 {
+  font-size: 30px;
+}
+
 .social img {
   border-radius: 50px;
+}
+
+.cards section img {
+  border-radius: 25px;
 }
 
 .weather div img {
@@ -310,6 +334,14 @@ main p {
   margin-top: -5px;
   border: 2px solid #c585f7;
   box-shadow: 0px 0px 20px #333333;
+}
+
+.cards section:hover {
+  box-shadow: 0px 0px 50px #333333;
+}
+
+.stats {
+  display: hidden;
 }
 
 .weather hr {
@@ -371,7 +403,7 @@ nav {
   max-width: 99%;
   background-color: #2e742b;
   margin: 0 auto;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
 }
 
@@ -425,14 +457,14 @@ footer {
   width: 100%;
   color: black;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 5em;
   padding-bottom: 0.25em;
   background-color: #700070;
   font-family: "Anybody", sans-serif;
 }
 
-.mainfooter p {
-  padding-top: 1em;
+.FreshFooter {
+  margin-top: -5em;
 }
 
 #contact_resources {
@@ -502,7 +534,7 @@ iframe {
 
 .action {
   color: lavenderblush;
-  background: radial-gradient(purple, #c585f7);
+  background: radial-gradient(limegreen, #2e742b);
   border: 1px solid black;
   border-radius: 25px;
   padding: 1rem;
@@ -520,9 +552,7 @@ iframe {
 }
 
 .action button:hover {
-  cursor: pointer;
-  color: limegreen;
-  background-color: #700070;
+  background: radial-gradient(purple, #c585f7);
 }
 
 .social {
@@ -532,24 +562,26 @@ iframe {
 }
 
 table {
-  text-align: center;
-  margin-top: 2em;
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid blue;
+  border: 2px solid blue;
+  visibility: hidden;
+}
+
+#TableH3, #TableHR {
+  visibility: hidden;
 }
 
 th {
   color: white;
+  background-color: #700070;
   padding: 8px;
 }
 
 td {
-  border: 1px solid #dddddd;
-}
-
-tr {
-  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  border: 1px solid black;
 }
 
 .Headers {
@@ -599,7 +631,7 @@ tr {
     height: 25px;
   }
   
-  #locality-dropdown1 {
+  #Fruit1 {
     margin-top: 5px;
   }
   
