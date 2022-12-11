@@ -125,6 +125,7 @@ main a {
 }
 
 #rButton:hover {
+  cursor: pointer;
   color: white;
   background: radial-gradient(purple, #c585f7);
 }
@@ -319,10 +320,6 @@ td p, .content p {
   border-radius: 50px;
 }
 
-.cards section img {
-  border-radius: 25px;
-}
-
 .weather div img {
   width: 85%;
   margin-top: -1em;
@@ -334,10 +331,6 @@ td p, .content p {
   margin-top: -5px;
   border: 2px solid #c585f7;
   box-shadow: 0px 0px 20px #333333;
-}
-
-.cards section:hover {
-  box-shadow: 0px 0px 50px #333333;
 }
 
 .stats {
@@ -357,7 +350,7 @@ td p, .content p {
   width: 300px;
 }
 
-.cards hr, #cards hr {
+#cards hr {
   width: 95%;
 }
 
@@ -552,6 +545,7 @@ iframe {
 }
 
 .action button:hover {
+  cursor: pointer;
   background: radial-gradient(purple, #c585f7);
 }
 
