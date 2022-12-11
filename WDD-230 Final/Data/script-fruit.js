@@ -4671,6 +4671,8 @@ function show() {
   document.getElementById("TableHR").style.visibility = "visible";
   document.getElementById("table").style.visibility = "visible";
   document.getElementById("table").style.marginBottom = "8em";
+  var frm = document.getElementById("form");
+  frm.reset();
   if(typeof(Storage) !== "undefined") {
     if (localStorage.clickcount) {
       localStorage.clickcount = Number(localStorage.clickcount)+1;
@@ -4682,6 +4684,4 @@ function show() {
   } else {
     document.getElementById("display").innerHTML = "Sorry, your browser does not support web storage...";
   }
-  var frm = document.getElementById("form");
-  frm.reset();
 }
