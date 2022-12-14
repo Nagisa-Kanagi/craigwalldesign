@@ -52,7 +52,6 @@
     margin-left: 100px;
     width: 40%;
   }
-
   
   .action h2 {
     margin-top: -10px;
@@ -80,6 +79,10 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+  }
+
+  .contents h2 {
+    margin-top: 15px;
   }
   
   .contents p {
