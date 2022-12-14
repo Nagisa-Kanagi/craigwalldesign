@@ -5,6 +5,7 @@ hambutton.addEventListener(
   "click",
   () => {
     mainnav.classList.toggle("responsive");
+    document.querySelector(".action").style.visibility = "hidden";
   },
   false
 );
