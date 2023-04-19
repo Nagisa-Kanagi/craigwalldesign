@@ -208,6 +208,14 @@ nav {
   display: none;
 }
 
+.responsive li {
+  display: block;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
 nav ul {
   list-style-type: none;
   overflow: hidden;
