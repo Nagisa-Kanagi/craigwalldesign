@@ -170,6 +170,10 @@ nav ul li a {
   width: 80%;
 }
 
+#contact_info img {
+    margin-bottom: 10px;
+  }
+
 header,
 main,
 footer {
@@ -356,7 +360,6 @@ iframe {
   #contact_info img {
     max-width: 30%;
     max-height: 30%;
-    margin-bottom: 10px;
   }
 
   .footer_info p,
