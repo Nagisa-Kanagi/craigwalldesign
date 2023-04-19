@@ -118,6 +118,19 @@ nav ul li a {
   transition: 0.5s;
 }
 
+.navigation li {
+  display: none;
+}
+
+.responsive li {
+  display: block;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+
 .contents {
   text-align: center;
   background: #ecdec9;
@@ -170,10 +183,6 @@ nav ul li a {
   width: 80%;
 }
 
-#contact_info img {
-    margin-bottom: 10px;
-  }
-
 header,
 main,
 footer {
@@ -195,6 +204,7 @@ nav {
   background-color: navy;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
+  margin: auto;
 }
 
 .navigation {
@@ -202,18 +212,6 @@ nav {
   font-family: "Boogaloo", sans-serif;
   font-weight: 50;
   padding: 0;
-}
-
-.navigation li {
-  display: none;
-}
-
-.responsive li {
-  display: block;
-}
-
-.navigation li:first-child {
-  display: block;
 }
 
 nav ul {
@@ -278,7 +276,7 @@ iframe {
   }
 
   .navigation li {
-    display: block;
+    display: none;
   }
 
   nav a {
@@ -368,6 +366,7 @@ iframe {
   #contact_info img {
     max-width: 30%;
     max-height: 30%;
+    margin-bottom: 10px;
   }
 
   .footer_info p,
