@@ -128,7 +128,6 @@ nav ul li a {
   display: block;
 }
 
-
 .contents {
   text-align: center;
   background: #ecdec9;
@@ -274,7 +273,7 @@ iframe {
   }
 
   .navigation li {
-    display: none;
+    display: block;
   }
 
   nav a {
