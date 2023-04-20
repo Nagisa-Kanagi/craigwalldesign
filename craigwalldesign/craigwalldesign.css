@@ -303,7 +303,6 @@ iframe {
 @media only screen and (max-width: 32.5em) {
   .container {
     display: block;
-    overflow: hidden;
   }
 
   .container img {
