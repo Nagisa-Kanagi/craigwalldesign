@@ -50,7 +50,6 @@ li {
 
 .modal h1{
   display: block;
-  margin-top: -250px;
   color: lightgray;
   font-size: 50px;
 }
@@ -79,11 +78,15 @@ li {
   margin-left: 100px;
 }
 
-.wysteria, .tyler, .shiloh, .sherman, .ridgecrest, .dakota {
+.20 {
   margin-top: -200px;
 }
 
-.cedars, .dearborn, .mesa, .monroe, .newport, .violet {
+.25 {
+  margin-top: -250px;
+}
+
+.30 {
   margin-top: -300px;
 }
 
