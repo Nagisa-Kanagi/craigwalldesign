@@ -102,7 +102,7 @@ table {
   margin-top: -275px;
 }
 
-.modal-content, .modal-content2, .modal h1 {
+.modal-content, .modal-content2, .modal-content3, .modal h1 {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
