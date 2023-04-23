@@ -79,8 +79,12 @@ li {
   margin-left: 100px;
 }
 
-content3 {
-  margin-top: -20px;
+.wysteria, .tyler, .shiloh, .sherman, .ridgecrest, .dakota {
+  margin-top: -200px;
+}
+
+.cedars, .dearborn, .mesa, .monroe, .newport, .violet {
+  margin-top: -300px;
 }
 
 table {
