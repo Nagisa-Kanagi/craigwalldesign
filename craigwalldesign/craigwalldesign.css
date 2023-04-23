@@ -79,6 +79,10 @@ li {
   margin-left: 100px;
 }
 
+content3 {
+  margin-top: -20px;
+}
+
 table {
   grid-column-start: 1;
   display: flex;
