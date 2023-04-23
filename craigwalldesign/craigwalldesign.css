@@ -470,7 +470,7 @@ iframe {
   }
   
   .thumbnail {
-    margin: auto;
+    margin: 10px auto;
   }
 
   iframe {
