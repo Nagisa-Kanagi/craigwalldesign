@@ -71,6 +71,14 @@ li {
   margin-left: 100px;
 }
 
+.modal-content3 {
+  grid-column-start: 2;
+  scale: 1.5;
+  margin: auto;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
 table {
   grid-column-start: 1;
   display: flex;
