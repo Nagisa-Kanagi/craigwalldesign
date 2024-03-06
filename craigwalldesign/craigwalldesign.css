@@ -113,7 +113,7 @@ table {
 #caption11, #caption12, #caption13, #caption14, #caption15,
 #caption16, #caption17, #caption18, #caption19, #caption20 {
   animation-name: zoom;
-  animation-duration: 0.6s;
+  animation-duration: 0.5s;
 }
 
 @keyframes zoom {
@@ -165,7 +165,6 @@ th, td {
   color: black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 15px auto;
   max-width: 100%;
   margin-top: 10px;
   padding: 15px;
