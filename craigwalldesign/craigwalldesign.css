@@ -4,7 +4,7 @@
 body {
   font-family: "Anybody", sans-serif;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #f9e4bc;
   margin: auto;
 }
 
@@ -146,7 +146,6 @@ th, td {
 
 .contents2 {
   text-align: center;
-  background: #ecdec9;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 100%;
@@ -277,7 +276,6 @@ nav ul li a {
 
 .contents {
   text-align: center;
-  background: #ecdec9;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 100%;
