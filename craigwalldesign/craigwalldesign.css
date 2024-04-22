@@ -333,7 +333,7 @@ footer {
 
 header {
   max-width: 100%;
-  background-color: brown;
+  background: repeating-linear-gradient(to right, black, black 10px, #3b3b3b 10px, #3b3b3b 20px);
   display: flex;
   flex-flow: column;
   align-items: center;
